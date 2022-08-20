@@ -22,6 +22,12 @@ Schedulers: are centralized dispatchers to control concurrency, allowing us to c
 
 So We will be Looking These Angular-RXJS  features and Learn as we go on.
 
+1. Introduction to RXJS, Reactive Extention for javascript adn why and where we need to use.
+2. Understand Observer software pattern and how RXJS uses pattern observer with Observables.
+3. Integrating RXJS Library with other popular frameworks like Angular, React, Vue - RXJS.
+4. Convert Javascript arrays, Documneting Event handlers and Promises to RXJS Observalbe.
+5.  
+
 
 # Follow the Below Steps
 
