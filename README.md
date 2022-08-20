@@ -26,7 +26,7 @@ So We will be Looking These Angular-RXJS  features and Learn as we go on.
 2. Understand Observer software pattern and how RXJS uses pattern observer with Observables.
 3. Integrating RXJS Library with other popular frameworks like Angular, React, Vue - RXJS.
 4. Convert Javascript arrays, Documneting Event handlers and Promises to RXJS Observalbe.
-5.  Create a new Custom Observable from Scratch using the RXJS Observable object RXJS
+5.  Create a new Custom Observable from Scratch using the RXJS Observable object- RXJS
 
 
 # Follow the Below Steps
