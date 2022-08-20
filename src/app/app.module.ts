@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewObservableComponent } from './new-observable/new-observable.component';
 import { FunctionalObservableComponent } from './components/functional-observable/functional-observable.component';
+import { CancellingObservablesComponent } from './components/cancelling-observables/cancelling-observables.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewObservableComponent,
-    FunctionalObservableComponent
+    FunctionalObservableComponent,
+    CancellingObservablesComponent
   ],
   imports: [
     BrowserModule,

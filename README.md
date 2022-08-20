@@ -29,6 +29,7 @@ So We will be Looking These Angular-RXJS  features and Learn as we go on.
 5.  Create a new Custom Observable from Scratch using the RXJS Observable object- RXJS.
 6. Different ways of creating the observer by object and class and subscibing to Observable in RXJS
 7. Observalbe vs Functions.Understand the similarities and Deifference betwwen them - RXJS
+8. Cancelling the Subscribed Observalbe execution using the subscription unsubscribe method- RXJS
 
 # Follow the Below Steps
 
