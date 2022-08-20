@@ -19,6 +19,10 @@ Operators: are pure functions that enable a functional programming style of deal
 Subject: is equivalent to an EventEmitter, and the only way of multicasting a value or event to multiple Observers.
 Schedulers: are centralized dispatchers to control concurrency, allowing us to coordinate when computation happens on e.g. setTimeout or requestAnimationFrame or others.
 
+
+So We will be Looking These Angular-RXJS  features and Learn as we go on.
+
+
 # Follow the Below Steps
 
 Note:- Before Starting with this Project, Please make sure you have installed latest stabled version of [Nodejs](https://nodejs.org/en/) Application in your System 
