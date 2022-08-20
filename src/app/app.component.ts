@@ -1,6 +1,7 @@
 import { AfterViewInit, Component } from '@angular/core';
 
 import { from, fromEvent } from 'rxjs';
+import { funcObservale, functionObs,  } from './Services/function';
 
 @Component({
   selector: 'app-root',
@@ -26,27 +27,39 @@ export class AppComponent implements AfterViewInit {
   promiseObservable$ = from(this.promise)
 
   constructor() {
-    this.postArrayListObservable$.subscribe({
-      next: (data) => { console.log(data) },
-      error: (error) => { console.log(error) },
-      complete: () => { console.log('Post Array completed') },
-    })
+    // this.postArrayListObservable$.subscribe({
+    //   next: (data) => { console.log(data) },
+    //   error: (error) => { console.log(error) },
+    //   complete: () => { console.log('Post Array completed') },
+    // })
 
-    this.promiseObservable$.subscribe({
-      next: (data) => { console.log(data) },
-      error: (error) => { console.log(error) },
-      complete: () => { console.log('Promise completed') },
-    })
+    // this.promiseObservable$.subscribe({
+    //   next: (data) => { console.log(data) },
+    //   error: (error) => { console.log(error) },
+    //   complete: () => { console.log('Promise completed') },
+    // })
+    console.log('Before function');
+     console.log(functionObs());
+    console.log(functionObs());
+    console.log('After function');
 
+
+    console.log('Before Observale');
+    funcObservale.subscribe((data)=>{console.log(data);})
+    funcObservale.subscribe((data)=>{console.log(data);})
+
+    console.log('After Observable');
+
+  
 
   }
 
   ngAfterViewInit(): void {
-    fromEvent(document.getElementById('click-button')!, 'click').subscribe({
-      next: (data) => { console.log(data) },
-      error: (error) => { console.log(error) },
-      complete: () => { console.log('Promise completed') },
-    })
+    // fromEvent(document.getElementById('click-button')!, 'click').subscribe({
+    //   next: (data) => { console.log(data) },
+    //   error: (error) => { console.log(error) },
+    //   complete: () => { console.log('Promise completed') },
+    // })
   }
 
 }
