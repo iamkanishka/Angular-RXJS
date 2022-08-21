@@ -3,3 +3,8 @@
 {{this.timer}}
 
 <button (click)="cancelTimer()">Cancel Timer</button>
+
+
+<div *ngFor="let timer of timers">
+    <p>{{timer}}</p>
+</div>
