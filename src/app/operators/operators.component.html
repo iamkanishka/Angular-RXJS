@@ -1,8 +1,10 @@
 <p>RXJS Operators </p>
 
 <div style="display: flex;">
-<div *ngFor="let operator of Operators" style="flex: 1">
-<a [routerLink]="[ '/operators/'+operator ]" routerLinkActive="active">{{operator}}</a>
+<div style="flex: 1">
+    <ul>
+    <li  *ngFor="let operator of Operators"><a [routerLink]="[ '/operators/'+operator ]" routerLinkActive="active">{{operator}}</a><br></li>        
+    </ul>
 </div>
 <div style="flex: 4">
 <router-outlet></router-outlet>

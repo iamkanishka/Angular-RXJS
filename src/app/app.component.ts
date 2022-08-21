@@ -38,17 +38,20 @@ export class AppComponent implements AfterViewInit {
     //   error: (error) => { console.log(error) },
     //   complete: () => { console.log('Promise completed') },
     // })
-    console.log('Before function');
-     console.log(functionObs());
-    console.log(functionObs());
-    console.log('After function');
 
 
-    console.log('Before Observale');
-    funcObservale.subscribe((data)=>{console.log(data);})
-    funcObservale.subscribe((data)=>{console.log(data);})
+    //Commenting code for no distraction
+    // console.log('Before function');
+    //  console.log(functionObs());
+    // console.log(functionObs());
+    // console.log('After function');
 
-    console.log('After Observable');
+
+    // console.log('Before Observale');
+    // funcObservale.subscribe((data)=>{console.log(data);})
+    // funcObservale.subscribe((data)=>{console.log(data);})
+
+    // console.log('After Observable');
 
   
 
