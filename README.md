@@ -34,6 +34,10 @@ So We will be Looking These Angular-RXJS  features and Learn as we go on.
 10. Undersatnding RXJS Operators, Two Kinds of Operators like pipeline & Creattion Operators.
 11. Implement multiple operators for Observalbe using pipe method in RXJS.
 12. Choose Right RXJS Operators from the list og Categories of operators for an observable.
+13. RXJS Operators marble Diagram. understand the functionality of operators by using marble
+    https://miro.medium.com/max/1400/1*2YH6YoOiK7HQ4mTReKpKuA.png
+
+    
 
 # Follow the Below Steps
 

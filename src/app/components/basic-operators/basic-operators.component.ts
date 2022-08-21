@@ -13,23 +13,23 @@ export class BasicOperatorsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    const newObservable = interval(1000)
-    newObservable.subscribe(number=>{
-      if(number%2 === 0){
-        console.log('Even Number ' +number);
-       }
-       })
+    // const newObservable = interval(1000)
+    // newObservable.subscribe(number=>{
+    //   if(number%2 === 0){
+    //     console.log('Even Number ' +number);
+    //    }
+    //    })
 
-       newObservable.pipe(filter((number)=>{
-        return number%2===0
-       }),map(number=>{
-        return 'even Number ' + number
-       })
+    //    newObservable.pipe(filter((number)=>{
+    //     return number%2===0
+    //    }),map(number=>{
+    //     return 'even Number ' + number
+    //    })
        
-       ).subscribe((data)=>{
-        console.log(data);
+    //    ).subscribe((data)=>{
+    //     console.log(data);
         
-       })
+    //    })
   }
 
 }
