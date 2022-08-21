@@ -32,6 +32,7 @@ So We will be Looking These Angular-RXJS  features and Learn as we go on.
 8. Cancelling the Subscribed Observalbe execution using the subscription unsubscribe method- RXJS
 9. Avaoid Memory Leakage when subscribing and unsubscribing Custom Observable by Cleaning Code.
 10. Undersatnding RXJS Operators, Two Kinds of Operators like pipeline & Creattion Operators.
+11. Implement multiple operators for Observalbe using pipe method in RXJS.
 
 # Follow the Below Steps
 

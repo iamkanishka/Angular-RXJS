@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NewObservableComponent } from './new-observable/new-observable.component';
 import { FunctionalObservableComponent } from './components/functional-observable/functional-observable.component';
 import { CancellingObservablesComponent } from './components/cancelling-observables/cancelling-observables.component';
+import { BasicOperatorsComponent } from './components/basic-operators/basic-operators.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewObservableComponent,
     FunctionalObservableComponent,
-    CancellingObservablesComponent
+    CancellingObservablesComponent,
+    BasicOperatorsComponent
   ],
   imports: [
     BrowserModule,
