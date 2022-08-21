@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class OperatorsComponent implements OnInit {
 
 
-   Operators:any[]=["buffer","bufferCount"]
+   Operators:any[]=["buffer","bufferCount","bufferTimerCount"]
   constructor() { }
 
   ngOnInit(): void {

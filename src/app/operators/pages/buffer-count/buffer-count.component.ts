@@ -19,11 +19,11 @@ export class BufferCountComponent implements OnInit {
       
     // })
 
-    interval(1000)
-    .pipe(bufferCount(3,2)).subscribe((data)=>{
-      console.log(data);
+    // interval(1000)
+    // .pipe(bufferCount(3,2)).subscribe((data)=>{
+    //   console.log(data);
       
-    })
+    // })
   }
 
 }

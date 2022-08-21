@@ -38,6 +38,8 @@ So We will be Looking These Angular-RXJS  features and Learn as we go on.
     https://rxjs-course.dev/static/70a8819bfbc13c46a956a06eccee9614/marble-diagram.svg
 14. RXJS Buffer Operator, Understand about Buffer Operator in Transformation Catergory.
 15. RXJS BufferCount Operator.Learn Buffer Count Operator in Trasnformation Category
+16. RXJS BufferTime Operator.Learn Buffer Time Operator in Trasnformation Category
+
 
 # Follow the Below Steps
 
