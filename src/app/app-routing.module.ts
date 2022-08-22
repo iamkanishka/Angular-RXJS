@@ -9,6 +9,7 @@ import { BufferComponent } from './operators/pages/buffer/buffer.component';
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
 import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-operator.component';
 import { SkipUntilOperatorComponent } from './operators/pages/skip-until-operator/skip-until-operator.component';
+import { SkipWhileOperatorComponent } from './operators/pages/skip-while-operator/skip-while-operator.component';
 import { TakeLastComponent } from './operators/pages/take-last/take-last.component';
 import { TakeOperatorComponent } from './operators/pages/take-operator/take-operator.component';
 import { TakeUntilOperatorComponent } from './operators/pages/take-until-operator/take-until-operator.component';
@@ -28,6 +29,8 @@ const routes: Routes = [{
     { path:'skip', component: SkipOperatorComponent,},
     { path:'skipLast', component: SkipLastOperatorComponent,},
     { path:'skipUntil', component: SkipUntilOperatorComponent,},
+    { path:'skipWhile', component: SkipWhileOperatorComponent,},
+
 
 
 

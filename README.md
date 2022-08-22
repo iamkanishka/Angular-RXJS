@@ -50,6 +50,8 @@ Filterig Operator
 23. RXJS Skip Operator.Learn RXJS Filtering Category Skip operator Category.
 24. RXJS SkipLast Operator.Learn RXJS Filtering Category SkipLast operator Category.
 25. RXJS SkipUntil Operator.Learn RXJS Filtering Category SkipUntil operator Category.
+25. RXJS SkipWhile Operator.Learn RXJS Filtering Category SkipWhile operator Category.
+
 
 
 

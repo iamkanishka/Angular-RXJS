@@ -21,6 +21,7 @@ export class OperatorsComponent implements OnInit {
    "skip",
    "skipLast",
    "skipUntil",
+   "skipWhile",
   ]
   constructor() { }
 
