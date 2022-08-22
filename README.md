@@ -54,7 +54,7 @@ Filterig Operator
 25. RXJS SkipUntil Operator.Learn RXJS Filtering Category SkipUntil operator Category.
 26. RXJS SkipWhile Operator.Learn RXJS Filtering Category SkipWhile operator Category.
 27. RXJS Distinct Operator.Learn RXJS Filtering Category Distinct operator Category.
-27. RXJS DistinctUntilChanged Operator.Learn RXJS Filtering Category DistinctUntilChanged operator Category.
+28. RXJS DistinctUntilChanged Operator.Learn RXJS Filtering Category DistinctUntilChanged operator Category.
 
 
 
