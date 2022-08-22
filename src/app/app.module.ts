@@ -15,6 +15,7 @@ import { BufferToggleOperatorComponent } from './operators/pages/buffer-toggle-o
 import { BufferWhenOperatorComponent } from './operators/pages/buffer-when-operator/buffer-when-operator.component';
 import { TakeOperatorComponent } from './operators/pages/take-operator/take-operator.component';
 import { TakeLastComponent } from './operators/pages/take-last/take-last.component';
+import { TakeUntilOperatorComponent } from './operators/pages/take-until-operator/take-until-operator.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TakeLastComponent } from './operators/pages/take-last/take-last.compone
     BufferToggleOperatorComponent,
     BufferWhenOperatorComponent,
     TakeOperatorComponent,
-    TakeLastComponent
+    TakeLastComponent,
+    TakeUntilOperatorComponent
   ],
   imports: [
     BrowserModule,
