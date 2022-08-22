@@ -6,6 +6,7 @@ import { BufferTimerOperatorComponent } from './operators/pages/buffer-timer-ope
 import { BufferToggleOperatorComponent } from './operators/pages/buffer-toggle-operator/buffer-toggle-operator.component';
 import { BufferWhenOperatorComponent } from './operators/pages/buffer-when-operator/buffer-when-operator.component';
 import { BufferComponent } from './operators/pages/buffer/buffer.component';
+import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-operator.component';
 import { TakeLastComponent } from './operators/pages/take-last/take-last.component';
 import { TakeOperatorComponent } from './operators/pages/take-operator/take-operator.component';
 import { TakeUntilOperatorComponent } from './operators/pages/take-until-operator/take-until-operator.component';
@@ -22,6 +23,8 @@ const routes: Routes = [{
     { path:'takeLast', component: TakeLastComponent,},
     { path:'takeUntil', component: TakeUntilOperatorComponent,},
     { path:'takeWhile', component: TakeWhileOperatorComponent,},
+    { path:'skip', component: SkipOperatorComponent,},
+
 
 
 

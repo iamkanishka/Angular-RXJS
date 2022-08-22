@@ -41,10 +41,11 @@ So We will be Looking These Angular-RXJS  features and Learn as we go on.
 16. RXJS BufferTime Operator.Learn Buffer Time Operator in Trasnformation Category.
 17. RXJS BufferToggle Operator.Learn BufferToggle Operator in Trasnformation Category.
 18. RXJS BufferWhen Operator.Learn BufferWhen Operator in Trasnformation Category.
-19. RXJS Take Operator.Learn Take Operator in Trasnformation Category.
-20. RXJS TakeLast Operator.Learn TakeLast Operator in Trasnformation Category.
-21. RXJS TakeUntil Operator.Learn TakeUntil Operator in Trasnformation Category.
-22. RXJS TakeWhile Operator.Learn TakeWhile Operator in Trasnformation Category.
+19. RXJS Take Operator.Learn Take Operator in Filtering Operator Category.
+20. RXJS TakeLast Operator.Learn TakeLast Operator in Filtering Operator Category.
+21. RXJS TakeUntil Operator.Learn TakeUntil Operator in Filtering Operator Category.
+22. RXJS TakeWhile Operator.Learn TakeWhile Operator in Filtering Operator Category.
+23. RXJS Skip Operator.Learn RXJS Filtering Category Skip operator Category.
 
 
 
