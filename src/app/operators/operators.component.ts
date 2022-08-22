@@ -19,6 +19,7 @@ export class OperatorsComponent implements OnInit {
    "takeUntil",
    "takeWhile",
    "skip",
+   "skipLast",
   ]
   constructor() { }
 
