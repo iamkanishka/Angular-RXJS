@@ -21,6 +21,7 @@ import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-oper
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
 import { SkipUntilOperatorComponent } from './operators/pages/skip-until-operator/skip-until-operator.component';
 import { SkipWhileOperatorComponent } from './operators/pages/skip-while-operator/skip-while-operator.component';
+import { DistintOperatorComponent } from './operators/pages/distint-operator/distint-operator.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { SkipWhileOperatorComponent } from './operators/pages/skip-while-operato
     SkipOperatorComponent,
     SkipLastOperatorComponent,
     SkipUntilOperatorComponent,
-    SkipWhileOperatorComponent
+    SkipWhileOperatorComponent,
+    DistintOperatorComponent
   ],
   imports: [
     BrowserModule,
