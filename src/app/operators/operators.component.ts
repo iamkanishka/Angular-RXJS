@@ -23,6 +23,7 @@ export class OperatorsComponent implements OnInit {
    "skipUntil",
    "skipWhile",
    "distint",
+   "distintUntilChnaged",
   ]
   constructor() { }
 
