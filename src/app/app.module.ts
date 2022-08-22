@@ -19,6 +19,7 @@ import { TakeUntilOperatorComponent } from './operators/pages/take-until-operato
 import { TakeWhileOperatorComponent } from './operators/pages/take-while-operator/take-while-operator.component';
 import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-operator.component';
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
+import { SkipUntilOperatorComponent } from './operators/pages/skip-until-operator/skip-until-operator.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/
     TakeUntilOperatorComponent,
     TakeWhileOperatorComponent,
     SkipOperatorComponent,
-    SkipLastOperatorComponent
+    SkipLastOperatorComponent,
+    SkipUntilOperatorComponent
   ],
   imports: [
     BrowserModule,
