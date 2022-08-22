@@ -16,6 +16,7 @@ import { BufferWhenOperatorComponent } from './operators/pages/buffer-when-opera
 import { TakeOperatorComponent } from './operators/pages/take-operator/take-operator.component';
 import { TakeLastComponent } from './operators/pages/take-last/take-last.component';
 import { TakeUntilOperatorComponent } from './operators/pages/take-until-operator/take-until-operator.component';
+import { TakeWhileOperatorComponent } from './operators/pages/take-while-operator/take-while-operator.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TakeUntilOperatorComponent } from './operators/pages/take-until-operato
     BufferWhenOperatorComponent,
     TakeOperatorComponent,
     TakeLastComponent,
-    TakeUntilOperatorComponent
+    TakeUntilOperatorComponent,
+    TakeWhileOperatorComponent
   ],
   imports: [
     BrowserModule,

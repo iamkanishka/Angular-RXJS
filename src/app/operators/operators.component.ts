@@ -9,7 +9,16 @@ import { Component, OnInit } from '@angular/core';
 export class OperatorsComponent implements OnInit {
 
 
-   Operators:any[]=["buffer","bufferCount","bufferTimerCount","bufferToggle","bufferWhen","take","takeLast","takeUntil"]
+   Operators:any[]=["buffer",
+   "bufferCount",
+   "bufferTimerCount",
+   "bufferToggle",
+   "bufferWhen",
+   "take",
+   "takeLast",
+   "takeUntil",
+   "takeWhile"
+  ]
   constructor() { }
 
   ngOnInit(): void {
