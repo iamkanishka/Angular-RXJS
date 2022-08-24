@@ -10,6 +10,7 @@ import { DistintOperatorComponent } from './operators/pages/distint-operator/dis
 import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-until-chnaged-operator/distint-until-chnaged-operator.component';
 import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/distint-until-key-chnaged-operator/distint-until-key-chnaged-operator.component';
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
+import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
 import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-operator.component';
 import { SkipUntilOperatorComponent } from './operators/pages/skip-until-operator/skip-until-operator.component';
@@ -38,6 +39,8 @@ const routes: Routes = [{
     { path:'distintUntilChnaged', component: DistintUntilChnagedOperatorComponent,},
     { path:'distintUntilKeyChnaged', component: DistintUntilKeyChnagedOperatorComponent,},
     { path:'filter', component: FilterOperatorComponent,},
+    { path:'Sample', component: SampleoperatorComponent,},
+
 
 
 

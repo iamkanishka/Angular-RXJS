@@ -57,7 +57,7 @@ Filterig Operator
 28. RXJS DistinctUntilChanged Operator.Learn RXJS Filtering Category DistinctUntilChanged operator Category.
 29. RXJS DistinctUntilKeyChanged Operator.Learn RXJS Filtering Category DistinctUntilKeyChanged operator Category.
 30. RXJS Filter Operator.Learn RXJS Filtering Category Filter operator Category.
-31. 
+31. RXJS Sample Operator.Learn RXJS Filtering Category Smaple operator Category.
 
 
 
