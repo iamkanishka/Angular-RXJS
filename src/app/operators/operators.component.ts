@@ -24,6 +24,7 @@ export class OperatorsComponent implements OnInit {
    "skipWhile",
    "distint",
    "distintUntilChnaged",
+   "distintUntilKeyChnaged",
   ]
   constructor() { }
 

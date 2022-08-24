@@ -8,6 +8,7 @@ import { BufferWhenOperatorComponent } from './operators/pages/buffer-when-opera
 import { BufferComponent } from './operators/pages/buffer/buffer.component';
 import { DistintOperatorComponent } from './operators/pages/distint-operator/distint-operator.component';
 import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-until-chnaged-operator/distint-until-chnaged-operator.component';
+import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/distint-until-key-chnaged-operator/distint-until-key-chnaged-operator.component';
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
 import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-operator.component';
 import { SkipUntilOperatorComponent } from './operators/pages/skip-until-operator/skip-until-operator.component';
@@ -34,6 +35,8 @@ const routes: Routes = [{
     { path:'skipWhile', component: SkipWhileOperatorComponent,},
     { path:'distint', component: DistintOperatorComponent,},
     { path:'distintUntilChnaged', component: DistintUntilChnagedOperatorComponent,},
+    { path:'distintUntilKeyChnaged', component: DistintUntilKeyChnagedOperatorComponent,},
+
 
 
 
