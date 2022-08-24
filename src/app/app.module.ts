@@ -27,6 +27,7 @@ import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/disti
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { AuditoperatorComponent } from './operators/pages/auditoperator/auditoperator.component';
+import { ThrottleoperatorComponent } from './operators/pages/throttleoperator/throttleoperator.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { AuditoperatorComponent } from './operators/pages/auditoperator/auditope
     DistintUntilKeyChnagedOperatorComponent,
     FilterOperatorComponent,
     SampleoperatorComponent,
-    AuditoperatorComponent
+    AuditoperatorComponent,
+    ThrottleoperatorComponent
   ],
   imports: [
     BrowserModule,

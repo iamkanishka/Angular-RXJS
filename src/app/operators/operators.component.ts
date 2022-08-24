@@ -28,6 +28,7 @@ export class OperatorsComponent implements OnInit {
    "filter",
    "Sample",
    "audit",
+   "throttle",
   ]
   constructor() { }
 
