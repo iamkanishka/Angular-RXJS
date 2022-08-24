@@ -62,6 +62,8 @@ Filterig Operator
 33. RXJS throttle Operator.Learn RXJS Filtering Category throttle operator Category.
 34. RXJS First Operator.Learn RXJS Filtering Category First operator Category.
 35. RXJS Last Operator.Learn RXJS Filtering Category Last operator Category.
+36. RXJS Debounce Operator.Learn RXJS Filtering Category Debounce operator Category.
+
 
 
 

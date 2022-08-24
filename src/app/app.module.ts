@@ -30,6 +30,7 @@ import { AuditoperatorComponent } from './operators/pages/auditoperator/auditope
 import { ThrottleoperatorComponent } from './operators/pages/throttleoperator/throttleoperator.component';
 import { FirstoperatorComponent } from './operators/pages/firstoperator/firstoperator.component';
 import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
+import { DebounceoperatorComponent } from './operators/pages/debounceoperator/debounceoperator.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttope
     AuditoperatorComponent,
     ThrottleoperatorComponent,
     FirstoperatorComponent,
-    LasttoperatorComponent
+    LasttoperatorComponent,
+    DebounceoperatorComponent
   ],
   imports: [
     BrowserModule,

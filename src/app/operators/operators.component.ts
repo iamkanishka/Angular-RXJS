@@ -31,6 +31,7 @@ export class OperatorsComponent implements OnInit {
    "throttle",
    "first",
    "last",
+   "debounce",
   ]
   constructor() { }
 
