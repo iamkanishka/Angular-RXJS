@@ -11,6 +11,7 @@ import { DistintOperatorComponent } from './operators/pages/distint-operator/dis
 import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-until-chnaged-operator/distint-until-chnaged-operator.component';
 import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/distint-until-key-chnaged-operator/distint-until-key-chnaged-operator.component';
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
+import { FirstoperatorComponent } from './operators/pages/firstoperator/firstoperator.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
 import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-operator.component';
@@ -44,6 +45,8 @@ const routes: Routes = [{
     { path:'Sample', component: SampleoperatorComponent,},
     { path:'audit', component: AuditoperatorComponent,},
     { path:'throttle', component: ThrottleoperatorComponent,},
+    { path:'first', component: FirstoperatorComponent,},
+
 
 
 

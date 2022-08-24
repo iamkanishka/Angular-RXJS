@@ -60,6 +60,9 @@ Filterig Operator
 31. RXJS Sample Operator.Learn RXJS Filtering Category Smaple operator Category.
 32. RXJS Audit Operator.Learn RXJS Filtering Category Audit operator Category.
 33. RXJS throttle Operator.Learn RXJS Filtering Category throttle operator Category.
+34. RXJS First Operator.Learn RXJS Filtering Category First operator Category.
+
+
 
 
 

@@ -28,6 +28,7 @@ import { FilterOperatorComponent } from './operators/pages/filter-operator/filte
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { AuditoperatorComponent } from './operators/pages/auditoperator/auditoperator.component';
 import { ThrottleoperatorComponent } from './operators/pages/throttleoperator/throttleoperator.component';
+import { FirstoperatorComponent } from './operators/pages/firstoperator/firstoperator.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { ThrottleoperatorComponent } from './operators/pages/throttleoperator/th
     FilterOperatorComponent,
     SampleoperatorComponent,
     AuditoperatorComponent,
-    ThrottleoperatorComponent
+    ThrottleoperatorComponent,
+    FirstoperatorComponent
   ],
   imports: [
     BrowserModule,
