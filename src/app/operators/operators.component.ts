@@ -25,6 +25,7 @@ export class OperatorsComponent implements OnInit {
    "distint",
    "distintUntilChnaged",
    "distintUntilKeyChnaged",
+   "filter",
   ]
   constructor() { }
 

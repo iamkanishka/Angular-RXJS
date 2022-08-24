@@ -24,6 +24,7 @@ import { SkipWhileOperatorComponent } from './operators/pages/skip-while-operato
 import { DistintOperatorComponent } from './operators/pages/distint-operator/distint-operator.component';
 import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-until-chnaged-operator/distint-until-chnaged-operator.component';
 import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/distint-until-key-chnaged-operator/distint-until-key-chnaged-operator.component';
+import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/disti
     SkipWhileOperatorComponent,
     DistintOperatorComponent,
     DistintUntilChnagedOperatorComponent,
-    DistintUntilKeyChnagedOperatorComponent
+    DistintUntilKeyChnagedOperatorComponent,
+    FilterOperatorComponent
   ],
   imports: [
     BrowserModule,
