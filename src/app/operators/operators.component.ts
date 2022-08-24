@@ -32,6 +32,7 @@ export class OperatorsComponent implements OnInit {
    "first",
    "last",
    "debounce",
+   "elementAt",
   ]
   constructor() { }
 

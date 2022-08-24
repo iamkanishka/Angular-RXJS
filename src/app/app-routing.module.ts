@@ -11,6 +11,7 @@ import { DebounceoperatorComponent } from './operators/pages/debounceoperator/de
 import { DistintOperatorComponent } from './operators/pages/distint-operator/distint-operator.component';
 import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-until-chnaged-operator/distint-until-chnaged-operator.component';
 import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/distint-until-key-chnaged-operator/distint-until-key-chnaged-operator.component';
+import { ElementAtoperatorComponent } from './operators/pages/element-atoperator/element-atoperator.component';
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
 import { FirstoperatorComponent } from './operators/pages/firstoperator/firstoperator.component';
 import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
@@ -50,6 +51,8 @@ const routes: Routes = [{
     { path:'first', component: FirstoperatorComponent,},
     { path:'last', component: LasttoperatorComponent,},
     { path:'debounce', component: DebounceoperatorComponent,},
+    { path:'elementAt', component: ElementAtoperatorComponent,},
+
 
 
 
