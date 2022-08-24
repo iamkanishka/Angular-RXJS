@@ -14,6 +14,7 @@ import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/disti
 import { ElementAtoperatorComponent } from './operators/pages/element-atoperator/element-atoperator.component';
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
 import { FirstoperatorComponent } from './operators/pages/firstoperator/firstoperator.component';
+import { IgnoreElementsoperatorComponent } from './operators/pages/ignore-elementsoperator/ignore-elementsoperator.component';
 import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
@@ -52,6 +53,8 @@ const routes: Routes = [{
     { path:'last', component: LasttoperatorComponent,},
     { path:'debounce', component: DebounceoperatorComponent,},
     { path:'elementAt', component: ElementAtoperatorComponent,},
+    { path:'ignoreElements', component: IgnoreElementsoperatorComponent,},
+
 
 
 
