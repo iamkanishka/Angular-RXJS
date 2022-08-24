@@ -29,6 +29,7 @@ import { SampleoperatorComponent } from './operators/pages/sampleoperator/sample
 import { AuditoperatorComponent } from './operators/pages/auditoperator/auditoperator.component';
 import { ThrottleoperatorComponent } from './operators/pages/throttleoperator/throttleoperator.component';
 import { FirstoperatorComponent } from './operators/pages/firstoperator/firstoperator.component';
+import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { FirstoperatorComponent } from './operators/pages/firstoperator/firstope
     SampleoperatorComponent,
     AuditoperatorComponent,
     ThrottleoperatorComponent,
-    FirstoperatorComponent
+    FirstoperatorComponent,
+    LasttoperatorComponent
   ],
   imports: [
     BrowserModule,

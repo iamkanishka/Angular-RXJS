@@ -30,6 +30,7 @@ export class OperatorsComponent implements OnInit {
    "audit",
    "throttle",
    "first",
+   "last",
   ]
   constructor() { }
 
