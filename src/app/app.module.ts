@@ -26,6 +26,7 @@ import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-
 import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/distint-until-key-chnaged-operator/distint-until-key-chnaged-operator.component';
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
+import { AuditoperatorComponent } from './operators/pages/auditoperator/auditoperator.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { SampleoperatorComponent } from './operators/pages/sampleoperator/sample
     DistintUntilChnagedOperatorComponent,
     DistintUntilKeyChnagedOperatorComponent,
     FilterOperatorComponent,
-    SampleoperatorComponent
+    SampleoperatorComponent,
+    AuditoperatorComponent
   ],
   imports: [
     BrowserModule,

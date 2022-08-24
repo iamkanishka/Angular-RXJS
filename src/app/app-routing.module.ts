@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { OperatorsComponent } from './operators/operators.component';
+import { AuditoperatorComponent } from './operators/pages/auditoperator/auditoperator.component';
 import { BufferCountComponent } from './operators/pages/buffer-count/buffer-count.component';
 import { BufferTimerOperatorComponent } from './operators/pages/buffer-timer-operator/buffer-timer-operator.component';
 import { BufferToggleOperatorComponent } from './operators/pages/buffer-toggle-operator/buffer-toggle-operator.component';
@@ -40,6 +41,8 @@ const routes: Routes = [{
     { path:'distintUntilKeyChnaged', component: DistintUntilKeyChnagedOperatorComponent,},
     { path:'filter', component: FilterOperatorComponent,},
     { path:'Sample', component: SampleoperatorComponent,},
+    { path:'audit', component: AuditoperatorComponent,},
+
 
 
 
