@@ -65,6 +65,8 @@ Filterig Operator
 36. RXJS Debounce Operator.Learn RXJS Filtering Category Debounce operator Category.
 37. RXJS elementAt Operator.Learn RXJS Filtering Category elementAt operator Category.
 38. RXJS ignoreElements Operator.Learn RXJS Filtering Category ignoreElements operator Category.
+39. RXJS single Operator.Learn RXJS Filtering Category single operator Category.
+
 
 
 

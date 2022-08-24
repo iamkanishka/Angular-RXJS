@@ -34,6 +34,7 @@ export class OperatorsComponent implements OnInit {
    "debounce",
    "elementAt",
    "ignoreElements",
+   "single"
   ]
   constructor() { }
 

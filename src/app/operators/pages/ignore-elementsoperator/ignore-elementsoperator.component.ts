@@ -21,7 +21,7 @@ export class IgnoreElementsoperatorComponent implements OnInit {
       console.log(error);
       
     },()=>{
-      console.log('ElementAt Complete');
+      console.log('IgnoreElments Complete');
       
     })
 
@@ -34,7 +34,7 @@ export class IgnoreElementsoperatorComponent implements OnInit {
       console.log(error);
       
     },()=>{
-      console.log('ElementAt Complete');
+      console.log('IgnoreElments Complete');
       
     })
   }
