@@ -12,6 +12,7 @@ export class SampleoperatorComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    //It emits the Most recent value with triggereing of other variable
     interval(500)
     .pipe(sample(interval(2000)))
     .subscribe((data)=>{
