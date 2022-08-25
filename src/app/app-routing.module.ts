@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MergeMapOperator } from 'rxjs/internal/operators/mergeMap';
 import { OperatorsComponent } from './operators/operators.component';
 import { AjaxOperatorComponent } from './operators/pages/ajax-operator/ajax-operator.component';
 import { AuditoperatorComponent } from './operators/pages/auditoperator/auditoperator.component';
@@ -19,6 +20,7 @@ import { IgnoreElementsoperatorComponent } from './operators/pages/ignore-elemen
 import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
 import { MapOperatorComponent } from './operators/pages/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to-operator.component';
+import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/merge-map-operator.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { SingleoperatorComponent } from './operators/pages/singleoperator/singleoperator.component';
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
@@ -62,6 +64,8 @@ const routes: Routes = [{
     { path:'map', component: MapOperatorComponent,},
     { path:'mapTo', component: MapToOperatorComponent,},
     { path:'ajax', component: AjaxOperatorComponent,},
+    { path:'mergeMap', component: MergeMapOperatorComponent,},
+
 
 
 
