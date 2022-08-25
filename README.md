@@ -66,6 +66,8 @@ Filterig Operator
 37. RXJS elementAt Operator.Learn RXJS Filtering Category elementAt operator Category.
 38. RXJS ignoreElements Operator.Learn RXJS Filtering Category ignoreElements operator Category.
 39. RXJS single Operator.Learn RXJS Filtering Category single operator Category.
+40. RXJS map Operator.Learn RXJS Filtering Category map operator Category.
+
 
 
 
