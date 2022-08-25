@@ -36,6 +36,7 @@ import { IgnoreElementsoperatorComponent } from './operators/pages/ignore-elemen
 import { SingleoperatorComponent } from './operators/pages/singleoperator/singleoperator.component';
 import { MapOperatorComponent } from './operators/pages/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to-operator.component';
+import { AjaxOperatorComponent } from './operators/pages/ajax-operator/ajax-operator.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to
     IgnoreElementsoperatorComponent,
     SingleoperatorComponent,
     MapOperatorComponent,
-    MapToOperatorComponent
+    MapToOperatorComponent,
+    AjaxOperatorComponent
   ],
   imports: [
     BrowserModule,

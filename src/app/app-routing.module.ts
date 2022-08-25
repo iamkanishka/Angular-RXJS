@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { OperatorsComponent } from './operators/operators.component';
+import { AjaxOperatorComponent } from './operators/pages/ajax-operator/ajax-operator.component';
 import { AuditoperatorComponent } from './operators/pages/auditoperator/auditoperator.component';
 import { BufferCountComponent } from './operators/pages/buffer-count/buffer-count.component';
 import { BufferTimerOperatorComponent } from './operators/pages/buffer-timer-operator/buffer-timer-operator.component';
@@ -60,6 +61,8 @@ const routes: Routes = [{
     { path:'single', component: SingleoperatorComponent,},
     { path:'map', component: MapOperatorComponent,},
     { path:'mapTo', component: MapToOperatorComponent,},
+    { path:'ajax', component: AjaxOperatorComponent,},
+
 
 
 

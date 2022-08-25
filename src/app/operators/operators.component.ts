@@ -37,6 +37,7 @@ export class OperatorsComponent implements OnInit {
    "single",
    "map",
    "mapTo",
+   "ajax",
   ]
   constructor() { }
 

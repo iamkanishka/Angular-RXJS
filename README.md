@@ -69,6 +69,9 @@ Filterig Operator
 40. RXJS map Operator.Learn RXJS Filtering Category map operator Category.
 41. RXJS mapTo Operator.Learn RXJS Filtering Category mapTo operator Category.
 
+Creation Category
+42. RXJS ajax Operator.Learn RXJS Creation Category ajax operator Category.
+
 
 
 
