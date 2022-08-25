@@ -35,7 +35,8 @@ export class OperatorsComponent implements OnInit {
    "elementAt",
    "ignoreElements",
    "single",
-   "map"
+   "map",
+   "mapTo",
   ]
   constructor() { }
 
