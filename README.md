@@ -71,7 +71,8 @@ Filterig Operator
 
 Creation Category
 42. RXJS ajax Operator.Learn RXJS Creation Category ajax operator Category.
-43. Higher Order Observables, What are Higher Order mapping Operators and why to use it - RXJS
+43. Higher Order Observables, What are Higher Order mapping Operators and why to use it - 
+44. When to use the Higher-Order mapping Operators for an Observable in RXJS
 
 
 
