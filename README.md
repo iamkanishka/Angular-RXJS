@@ -79,6 +79,8 @@ Higher Order Category
 46. RXJS MergeMapTo Operator, Learn Higher Order Mapping MergeMapTo Transformation Operator
 47. RXJS ConcatMap Operator, Learn Higher Order Mapping ConcatMap Transformation Operator
 48. RXJS ConcatMapTo Operator, Learn Higher Order Mapping ConcatMapTo Transformation Operator
+49. RXJS ExhaustMap Operator, Learn Higher Order Mapping ExhaustMap Transformation Operator
+
 
 
 
