@@ -85,6 +85,8 @@ Higher Order Category
 48. RXJS ConcatMapTo Operator, Learn Higher Order Mapping ConcatMapTo Transformation Operator
 49. RXJS ExhaustMap Operator, Learn Higher Order Mapping ExhaustMap Transformation Operator
 50. RXJS SwitchMap Operator, Learn Higher Order Mapping SwitchMap Transformation Operator
+51. RXJS SwitchMapTo Operator, Learn Higher Order Mapping SwitchMapTo Transformation Operator
+
 
 
 
