@@ -37,7 +37,8 @@ So We will be Looking These Angular-RXJS  features and Learn as we go on.
 13. RXJS Operators marble Diagram. understand the functionality of operators by using marble
     https://rxjs-course.dev/static/70a8819bfbc13c46a956a06eccee9614/marble-diagram.svg
 
-Transformation Operator    
+Transformation Operator 
+
 14. RXJS Buffer Operator, Understand about Buffer Operator in Transformation Catergory.
 15. RXJS BufferCount Operator.Learn Buffer Count Operator in Trasnformation Category.
 16. RXJS BufferTime Operator.Learn Buffer Time Operator in Trasnformation Category.
@@ -45,6 +46,7 @@ Transformation Operator
 18. RXJS BufferWhen Operator.Learn BufferWhen Operator in Trasnformation Category.
 
 Filterig Operator
+
 19. RXJS Take Operator.Learn Take Operator in Filtering Operator Category.
 20. RXJS TakeLast Operator.Learn TakeLast Operator in Filtering Operator Category.
 21. RXJS TakeUntil Operator.Learn TakeUntil Operator in Filtering Operator Category.
@@ -70,9 +72,11 @@ Filterig Operator
 41. RXJS mapTo Operator.Learn RXJS Filtering Category mapTo operator Category.
 
 Creation Category
+
 42. RXJS ajax Operator.Learn RXJS Creation Category ajax operator Category.
 
 Higher Order Category
+
 43. Higher Order Observables, What are Higher Order mapping Operators and why to use it - 
 44. When to use the Higher-Order mapping Operators for an Observable in RXJS
 45. RXJS MergeMap Operator, Learn Higher Order Mapping MergeMap Transformation Operator
