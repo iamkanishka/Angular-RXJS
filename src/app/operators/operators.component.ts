@@ -39,6 +39,7 @@ export class OperatorsComponent implements OnInit {
    "mapTo",
    "ajax",
    "mergeMap",
+   "mergeMapTo",
   ]
   constructor() { }
 

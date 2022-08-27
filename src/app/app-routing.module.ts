@@ -21,6 +21,7 @@ import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttope
 import { MapOperatorComponent } from './operators/pages/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to-operator.component';
 import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/merge-map-operator.component';
+import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { SingleoperatorComponent } from './operators/pages/singleoperator/singleoperator.component';
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
@@ -65,6 +66,8 @@ const routes: Routes = [{
     { path:'mapTo', component: MapToOperatorComponent,},
     { path:'ajax', component: AjaxOperatorComponent,},
     { path:'mergeMap', component: MergeMapOperatorComponent,},
+    { path:'mergeMapTo', component: MergemapToComponent,},
+
 
 
 

@@ -76,6 +76,8 @@ Higher Order Category
 43. Higher Order Observables, What are Higher Order mapping Operators and why to use it - 
 44. When to use the Higher-Order mapping Operators for an Observable in RXJS
 45. RXJS MergeMap Operator, Learn Higher Order Mapping MergeMap Transformation Operator
+46. RXJS MergeMapTo Operator, Learn Higher Order Mapping MergeMapTo Transformation Operator
+
 
 
 
