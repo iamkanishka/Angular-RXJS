@@ -41,6 +41,7 @@ export class OperatorsComponent implements OnInit {
    "mergeMap",
    "mergeMapTo",
    "concatMap",
+   "concatMapTo",
   ]
   constructor() { }
 

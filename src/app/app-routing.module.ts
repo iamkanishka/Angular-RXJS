@@ -9,6 +9,7 @@ import { BufferTimerOperatorComponent } from './operators/pages/buffer-timer-ope
 import { BufferToggleOperatorComponent } from './operators/pages/buffer-toggle-operator/buffer-toggle-operator.component';
 import { BufferWhenOperatorComponent } from './operators/pages/buffer-when-operator/buffer-when-operator.component';
 import { BufferComponent } from './operators/pages/buffer/buffer.component';
+import { ConcatMapToComponent } from './operators/pages/concat-map-to/concat-map-to.component';
 import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.component';
 import { DebounceoperatorComponent } from './operators/pages/debounceoperator/debounceoperator.component';
 import { DistintOperatorComponent } from './operators/pages/distint-operator/distint-operator.component';
@@ -69,6 +70,8 @@ const routes: Routes = [{
     { path:'mergeMap', component: MergeMapOperatorComponent,},
     { path:'mergeMapTo', component: MergemapToComponent,},
     { path:'concatMap', component: ConcatMapComponent,},
+    { path:'concatMapTo', component: ConcatMapToComponent,},
+
 
 
 
