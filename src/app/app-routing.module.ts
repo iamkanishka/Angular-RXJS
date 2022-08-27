@@ -31,6 +31,7 @@ import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/
 import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-operator.component';
 import { SkipUntilOperatorComponent } from './operators/pages/skip-until-operator/skip-until-operator.component';
 import { SkipWhileOperatorComponent } from './operators/pages/skip-while-operator/skip-while-operator.component';
+import { SwitchMapComponent } from './operators/pages/switch-map/switch-map.component';
 import { TakeLastComponent } from './operators/pages/take-last/take-last.component';
 import { TakeOperatorComponent } from './operators/pages/take-operator/take-operator.component';
 import { TakeUntilOperatorComponent } from './operators/pages/take-until-operator/take-until-operator.component';
@@ -73,6 +74,8 @@ const routes: Routes = [{
     { path:'concatMap', component: ConcatMapComponent,},
     { path:'concatMapTo', component: ConcatMapToComponent,},
     { path:'exhaustMap', component: ExhaustMapComponent,},
+    { path:'switchMap', component: SwitchMapComponent,},
+
 
 
 

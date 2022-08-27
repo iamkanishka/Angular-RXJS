@@ -43,6 +43,7 @@ export class OperatorsComponent implements OnInit {
    "concatMap",
    "concatMapTo",
    "exhaustMap",
+   "switchMap",
   ]
   constructor() { }
 

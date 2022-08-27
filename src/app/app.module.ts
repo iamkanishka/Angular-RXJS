@@ -42,6 +42,7 @@ import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.c
 import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.component';
 import { ConcatMapToComponent } from './operators/pages/concat-map-to/concat-map-to.component';
 import { ExhaustMapComponent } from './operators/pages/exhaust-map/exhaust-map.component';
+import { SwitchMapComponent } from './operators/pages/switch-map/switch-map.component';
 
 @NgModule({
   declarations: [
@@ -84,7 +85,8 @@ import { ExhaustMapComponent } from './operators/pages/exhaust-map/exhaust-map.c
     MergemapToComponent,
     ConcatMapComponent,
     ConcatMapToComponent,
-    ExhaustMapComponent
+    ExhaustMapComponent,
+    SwitchMapComponent
   ],
   imports: [
     BrowserModule,
