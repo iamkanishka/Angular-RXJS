@@ -45,6 +45,7 @@ import { ExhaustMapComponent } from './operators/pages/exhaust-map/exhaust-map.c
 import { SwitchMapComponent } from './operators/pages/switch-map/switch-map.component';
 import { SwitchMapToComponent } from './operators/pages/switch-map-to/switch-map-to.component';
 import { SubjectComponent } from './operators/pages/subject/subject.component';
+import { ColdObservableComponent } from './operators/pages/cold-observable/cold-observable.component';
 
 @NgModule({
   declarations: [
@@ -90,7 +91,8 @@ import { SubjectComponent } from './operators/pages/subject/subject.component';
     ExhaustMapComponent,
     SwitchMapComponent,
     SwitchMapToComponent,
-    SubjectComponent
+    SubjectComponent,
+    ColdObservableComponent
   ],
   imports: [
     BrowserModule,

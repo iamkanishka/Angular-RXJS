@@ -9,6 +9,7 @@ import { BufferTimerOperatorComponent } from './operators/pages/buffer-timer-ope
 import { BufferToggleOperatorComponent } from './operators/pages/buffer-toggle-operator/buffer-toggle-operator.component';
 import { BufferWhenOperatorComponent } from './operators/pages/buffer-when-operator/buffer-when-operator.component';
 import { BufferComponent } from './operators/pages/buffer/buffer.component';
+import { ColdObservableComponent } from './operators/pages/cold-observable/cold-observable.component';
 import { ConcatMapToComponent } from './operators/pages/concat-map-to/concat-map-to.component';
 import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.component';
 import { DebounceoperatorComponent } from './operators/pages/debounceoperator/debounceoperator.component';
@@ -79,6 +80,8 @@ const routes: Routes = [{
     { path:'switchMap', component: SwitchMapComponent,},
     { path:'switchMapTo', component: SwitchMapToComponent,},
     { path:'subjects', component: SubjectComponent,},
+    { path:'coldObservble', component: ColdObservableComponent,},
+
 
 
 
