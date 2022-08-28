@@ -45,6 +45,7 @@ export class OperatorsComponent implements OnInit {
    "exhaustMap",
    "switchMap",
    "switchMapTo",
+   "subjects",
   ]
   constructor() { }
 

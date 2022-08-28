@@ -31,6 +31,7 @@ import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/
 import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-operator.component';
 import { SkipUntilOperatorComponent } from './operators/pages/skip-until-operator/skip-until-operator.component';
 import { SkipWhileOperatorComponent } from './operators/pages/skip-while-operator/skip-while-operator.component';
+import { SubjectComponent } from './operators/pages/subject/subject.component';
 import { SwitchMapToComponent } from './operators/pages/switch-map-to/switch-map-to.component';
 import { SwitchMapComponent } from './operators/pages/switch-map/switch-map.component';
 import { TakeLastComponent } from './operators/pages/take-last/take-last.component';
@@ -77,6 +78,8 @@ const routes: Routes = [{
     { path:'exhaustMap', component: ExhaustMapComponent,},
     { path:'switchMap', component: SwitchMapComponent,},
     { path:'switchMapTo', component: SwitchMapToComponent,},
+    { path:'subjects', component: SubjectComponent,},
+
 
 
 

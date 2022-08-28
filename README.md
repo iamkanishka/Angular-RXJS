@@ -88,6 +88,8 @@ Higher Order Category
 51. RXJS SwitchMapTo Operator, Learn Higher Order Mapping SwitchMapTo Transformation Operator
 52. What are RXJS Subjects, Benifits of Using the Subject over Observable in RXJS
 53. MultiCast and UniCast Observables, Why Subjects are Multicast and Observables are Unicast.
+54. Demo on How Subjects and Observables behaves as multicast and inicast with observers.
+
 
 
 
