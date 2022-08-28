@@ -28,6 +28,7 @@ import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
+import { ShareOperatorComponent } from './operators/pages/share-operator/share-operator.component';
 import { SingleoperatorComponent } from './operators/pages/singleoperator/singleoperator.component';
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
 import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-operator.component';
@@ -83,6 +84,8 @@ const routes: Routes = [{
     { path:'subjects', component: SubjectComponent,},
     { path:'coldObservble', component: ColdObservableComponent,},
     { path:'MultiCast', component: MultiCastComponent,},
+    { path:'Share', component: ShareOperatorComponent,},
+
 
 
 

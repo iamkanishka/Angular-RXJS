@@ -47,6 +47,7 @@ import { SwitchMapToComponent } from './operators/pages/switch-map-to/switch-map
 import { SubjectComponent } from './operators/pages/subject/subject.component';
 import { ColdObservableComponent } from './operators/pages/cold-observable/cold-observable.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
+import { ShareOperatorComponent } from './operators/pages/share-operator/share-operator.component';
 
 @NgModule({
   declarations: [
@@ -94,7 +95,8 @@ import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.comp
     SwitchMapToComponent,
     SubjectComponent,
     ColdObservableComponent,
-    MultiCastComponent
+    MultiCastComponent,
+    ShareOperatorComponent
   ],
   imports: [
     BrowserModule,
