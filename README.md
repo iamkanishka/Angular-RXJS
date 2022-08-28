@@ -91,6 +91,7 @@ Higher Order Category
 54. Demo on How Subjects and Observables behaves as multicast and inicast with observers.
 55. Cold Observable vs Hot Observable. Learb differences between the cold and Hot Observable.
 56. How to Convert Cold Observable to Hot Observable using Subject with Example.
+57. Dot Use Deprecated Multicast Operator, Use Connectable Observable to Hot Observable-RXJS.
 
 
 
