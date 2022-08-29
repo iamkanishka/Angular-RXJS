@@ -28,6 +28,7 @@ import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to
 import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/merge-map-operator.component';
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
+import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { ShareOperatorComponent } from './operators/pages/share-operator/share-operator.component';
 import { SingleoperatorComponent } from './operators/pages/singleoperator/singleoperator.component';
@@ -87,6 +88,8 @@ const routes: Routes = [{
     { path:'MultiCast', component: MultiCastComponent,},
     { path:'Share', component: ShareOperatorComponent,},
     { path:'BehaviourSubject', component: BehavioursubjectOperatorComponent,},
+    { path:'ReplaySubject', component: ReplaysubjectOperatorComponent,},
+
 
 
 
