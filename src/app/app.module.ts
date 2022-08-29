@@ -50,6 +50,7 @@ import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.comp
 import { ShareOperatorComponent } from './operators/pages/share-operator/share-operator.component';
 import { BehavioursubjectOperatorComponent } from './operators/pages/behavioursubject-operator/behavioursubject-operator.component';
 import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
+import { AsyncsubjectOperatorComponent } from './operators/pages/asyncsubject-operator/asyncsubject-operator.component';
 
 @NgModule({
   declarations: [
@@ -100,7 +101,8 @@ import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-
     MultiCastComponent,
     ShareOperatorComponent,
     BehavioursubjectOperatorComponent,
-    ReplaysubjectOperatorComponent
+    ReplaysubjectOperatorComponent,
+    AsyncsubjectOperatorComponent
   ],
   imports: [
     BrowserModule,

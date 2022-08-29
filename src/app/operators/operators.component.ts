@@ -50,7 +50,9 @@ export class OperatorsComponent implements OnInit {
    "MultiCast",
    "Share",
    "BehaviourSubject",
-   "ReplaySubject"
+   "ReplaySubject",
+   "AsyncSubject",
+   
 
   ]
   constructor() { }

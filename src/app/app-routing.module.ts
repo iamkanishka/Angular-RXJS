@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { MergeMapOperator } from 'rxjs/internal/operators/mergeMap';
 import { OperatorsComponent } from './operators/operators.component';
 import { AjaxOperatorComponent } from './operators/pages/ajax-operator/ajax-operator.component';
+import { AsyncsubjectOperatorComponent } from './operators/pages/asyncsubject-operator/asyncsubject-operator.component';
 import { AuditoperatorComponent } from './operators/pages/auditoperator/auditoperator.component';
 import { BehavioursubjectOperatorComponent } from './operators/pages/behavioursubject-operator/behavioursubject-operator.component';
 import { BufferCountComponent } from './operators/pages/buffer-count/buffer-count.component';
@@ -89,6 +90,8 @@ const routes: Routes = [{
     { path:'Share', component: ShareOperatorComponent,},
     { path:'BehaviourSubject', component: BehavioursubjectOperatorComponent,},
     { path:'ReplaySubject', component: ReplaysubjectOperatorComponent,},
+    { path:'AsyncSubject', component: AsyncsubjectOperatorComponent,},
+
 
 
 
