@@ -3,7 +3,7 @@
 <div style="display: flex;">
 <div style="flex: 1">
     <ul>
-    <li  *ngFor="let operator of Operators"><a [routerLink]="[ '/operators/'+operator ]" routerLinkActive="active">{{operator}}</a><br></li>        
+    <li  *ngFor="let operator of Operators;let i = index"><span>{{i}} </span> <a [routerLink]="[ '/operators/'+operator ]" routerLinkActive="active">{{operator}}</a><br></li>        
     </ul>
 </div>
 <div style="flex: 4">
