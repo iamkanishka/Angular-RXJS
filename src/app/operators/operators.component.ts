@@ -52,9 +52,10 @@ export class OperatorsComponent implements OnInit {
    "BehaviourSubject",
    "ReplaySubject",
    "AsyncSubject",
+   "VoidSubject",
    
 
-  ]
+  ];
   constructor() { }
 
   ngOnInit(): void {

@@ -45,6 +45,7 @@ import { TakeOperatorComponent } from './operators/pages/take-operator/take-oper
 import { TakeUntilOperatorComponent } from './operators/pages/take-until-operator/take-until-operator.component';
 import { TakeWhileOperatorComponent } from './operators/pages/take-while-operator/take-while-operator.component';
 import { ThrottleoperatorComponent } from './operators/pages/throttleoperator/throttleoperator.component';
+import { VoidsubjectOperatorComponent } from './operators/pages/voidsubject-operator/voidsubject-operator.component';
 
 const routes: Routes = [{
   path:'operators', component:OperatorsComponent, children:[
@@ -91,6 +92,8 @@ const routes: Routes = [{
     { path:'BehaviourSubject', component: BehavioursubjectOperatorComponent,},
     { path:'ReplaySubject', component: ReplaysubjectOperatorComponent,},
     { path:'AsyncSubject', component: AsyncsubjectOperatorComponent,},
+    { path:'VoidSubject', component: VoidsubjectOperatorComponent,},
+
 
 
 

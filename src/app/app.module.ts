@@ -51,6 +51,7 @@ import { ShareOperatorComponent } from './operators/pages/share-operator/share-o
 import { BehavioursubjectOperatorComponent } from './operators/pages/behavioursubject-operator/behavioursubject-operator.component';
 import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
 import { AsyncsubjectOperatorComponent } from './operators/pages/asyncsubject-operator/asyncsubject-operator.component';
+import { VoidsubjectOperatorComponent } from './operators/pages/voidsubject-operator/voidsubject-operator.component';
 
 @NgModule({
   declarations: [
@@ -102,7 +103,8 @@ import { AsyncsubjectOperatorComponent } from './operators/pages/asyncsubject-op
     ShareOperatorComponent,
     BehavioursubjectOperatorComponent,
     ReplaysubjectOperatorComponent,
-    AsyncsubjectOperatorComponent
+    AsyncsubjectOperatorComponent,
+    VoidsubjectOperatorComponent
   ],
   imports: [
     BrowserModule,
