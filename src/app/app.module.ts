@@ -48,6 +48,7 @@ import { SubjectComponent } from './operators/pages/subject/subject.component';
 import { ColdObservableComponent } from './operators/pages/cold-observable/cold-observable.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
 import { ShareOperatorComponent } from './operators/pages/share-operator/share-operator.component';
+import { BehavioursubjectOperatorComponent } from './operators/pages/behavioursubject-operator/behavioursubject-operator.component';
 
 @NgModule({
   declarations: [
@@ -96,7 +97,8 @@ import { ShareOperatorComponent } from './operators/pages/share-operator/share-o
     SubjectComponent,
     ColdObservableComponent,
     MultiCastComponent,
-    ShareOperatorComponent
+    ShareOperatorComponent,
+    BehavioursubjectOperatorComponent
   ],
   imports: [
     BrowserModule,

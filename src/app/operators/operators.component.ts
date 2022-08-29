@@ -49,6 +49,7 @@ export class OperatorsComponent implements OnInit {
    "coldObservble",
    "MultiCast",
    "Share",
+   "BehaviourSubject"
 
   ]
   constructor() { }
