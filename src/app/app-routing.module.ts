@@ -30,6 +30,7 @@ import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
 import { PublishBehaviourOperatorComponent } from './operators/pages/publish-behaviour-operator/publish-behaviour-operator.component';
+import { PublishLastComponent } from './operators/pages/publish-last/publish-last.component';
 import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { ShareOperatorComponent } from './operators/pages/share-operator/share-operator.component';
@@ -95,6 +96,8 @@ const routes: Routes = [{
     { path:'AsyncSubject', component: AsyncsubjectOperatorComponent,},
     { path:'VoidSubject', component: VoidsubjectOperatorComponent,},
     { path:'publishBehaviour', component: PublishBehaviourOperatorComponent,},
+    { path:'publishLast', component: PublishLastComponent,},
+
 
 
 
