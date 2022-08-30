@@ -31,6 +31,7 @@ import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.c
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
 import { PublishBehaviourOperatorComponent } from './operators/pages/publish-behaviour-operator/publish-behaviour-operator.component';
 import { PublishLastComponent } from './operators/pages/publish-last/publish-last.component';
+import { PublishReplayComponent } from './operators/pages/publish-replay/publish-replay.component';
 import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { ShareOperatorComponent } from './operators/pages/share-operator/share-operator.component';
@@ -97,6 +98,8 @@ const routes: Routes = [{
     { path:'VoidSubject', component: VoidsubjectOperatorComponent,},
     { path:'publishBehaviour', component: PublishBehaviourOperatorComponent,},
     { path:'publishLast', component: PublishLastComponent,},
+    { path:'publishReplay', component: PublishReplayComponent,},
+
 
 
 

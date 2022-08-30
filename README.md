@@ -99,6 +99,7 @@ Higher Order Category
 62. Void Subject,Invoe Observers without sending values using Void Subjects - RXJS.
 63. PublishBehavour Operator.Learn Publish Behaviour for multicasting the observables - RXJS
 64. PublishLast Operator.Learn PublishLast for multicasting the observable completion similar like AsyncSubjects - RXJS
+65. PublishReplay Operator.Learn PublishReplay for multicasting the observable with connectable and Share - RXJS
 
 
 
