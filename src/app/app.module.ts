@@ -55,6 +55,7 @@ import { VoidsubjectOperatorComponent } from './operators/pages/voidsubject-oper
 import { PublishBehaviourOperatorComponent } from './operators/pages/publish-behaviour-operator/publish-behaviour-operator.component';
 import { PublishLastComponent } from './operators/pages/publish-last/publish-last.component';
 import { PublishReplayComponent } from './operators/pages/publish-replay/publish-replay.component';
+import { CatchErrorOperatorComponent } from './operators/pages/catch-error-operator/catch-error-operator.component';
 
 @NgModule({
   declarations: [
@@ -110,7 +111,8 @@ import { PublishReplayComponent } from './operators/pages/publish-replay/publish
     VoidsubjectOperatorComponent,
     PublishBehaviourOperatorComponent,
     PublishLastComponent,
-    PublishReplayComponent
+    PublishReplayComponent,
+    CatchErrorOperatorComponent
   ],
   imports: [
     BrowserModule,

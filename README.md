@@ -100,7 +100,7 @@ Higher Order Category
 63. PublishBehavour Operator.Learn Publish Behaviour for multicasting the observables - RXJS
 64. PublishLast Operator.Learn PublishLast for multicasting the observable completion similar like AsyncSubjects - RXJS
 65. PublishReplay Operator.Learn PublishReplay for multicasting the observable with connectable and Share - RXJS
-
+66. RXJS CatchError Operator.Learn Error Handling Catch Error Operator for Observalbes Error - RXJS
 
 
 
