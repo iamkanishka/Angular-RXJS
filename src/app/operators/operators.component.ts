@@ -53,6 +53,8 @@ export class OperatorsComponent implements OnInit {
    "ReplaySubject",
    "AsyncSubject",
    "VoidSubject",
+   "publishBehaviour",
+   
    
 
   ];

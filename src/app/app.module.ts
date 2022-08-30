@@ -52,6 +52,7 @@ import { BehavioursubjectOperatorComponent } from './operators/pages/behavioursu
 import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
 import { AsyncsubjectOperatorComponent } from './operators/pages/asyncsubject-operator/asyncsubject-operator.component';
 import { VoidsubjectOperatorComponent } from './operators/pages/voidsubject-operator/voidsubject-operator.component';
+import { PublishBehaviourOperatorComponent } from './operators/pages/publish-behaviour-operator/publish-behaviour-operator.component';
 
 @NgModule({
   declarations: [
@@ -104,7 +105,8 @@ import { VoidsubjectOperatorComponent } from './operators/pages/voidsubject-oper
     BehavioursubjectOperatorComponent,
     ReplaysubjectOperatorComponent,
     AsyncsubjectOperatorComponent,
-    VoidsubjectOperatorComponent
+    VoidsubjectOperatorComponent,
+    PublishBehaviourOperatorComponent
   ],
   imports: [
     BrowserModule,

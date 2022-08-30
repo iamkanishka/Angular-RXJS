@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MergeMapOperator } from 'rxjs/internal/operators/mergeMap';
+
 import { OperatorsComponent } from './operators/operators.component';
 import { AjaxOperatorComponent } from './operators/pages/ajax-operator/ajax-operator.component';
 import { AsyncsubjectOperatorComponent } from './operators/pages/asyncsubject-operator/asyncsubject-operator.component';
@@ -29,6 +29,7 @@ import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to
 import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/merge-map-operator.component';
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
+import { PublishBehaviourOperatorComponent } from './operators/pages/publish-behaviour-operator/publish-behaviour-operator.component';
 import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { ShareOperatorComponent } from './operators/pages/share-operator/share-operator.component';
@@ -93,6 +94,8 @@ const routes: Routes = [{
     { path:'ReplaySubject', component: ReplaysubjectOperatorComponent,},
     { path:'AsyncSubject', component: AsyncsubjectOperatorComponent,},
     { path:'VoidSubject', component: VoidsubjectOperatorComponent,},
+    { path:'publishBehaviour', component: PublishBehaviourOperatorComponent,},
+
 
 
 
