@@ -34,6 +34,7 @@ import { PublishBehaviourOperatorComponent } from './operators/pages/publish-beh
 import { PublishLastComponent } from './operators/pages/publish-last/publish-last.component';
 import { PublishReplayComponent } from './operators/pages/publish-replay/publish-replay.component';
 import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
+import { RetryOperatorComponent } from './operators/pages/retry-operator/retry-operator.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
 import { ShareOperatorComponent } from './operators/pages/share-operator/share-operator.component';
 import { SingleoperatorComponent } from './operators/pages/singleoperator/singleoperator.component';
@@ -101,6 +102,8 @@ const routes: Routes = [{
     { path:'publishLast', component: PublishLastComponent,},
     { path:'publishReplay', component: PublishReplayComponent,},
     { path:'catchError', component: CatchErrorOperatorComponent,},
+    { path:'retry', component: RetryOperatorComponent,},
+
 
 
 

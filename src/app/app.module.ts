@@ -56,6 +56,7 @@ import { PublishBehaviourOperatorComponent } from './operators/pages/publish-beh
 import { PublishLastComponent } from './operators/pages/publish-last/publish-last.component';
 import { PublishReplayComponent } from './operators/pages/publish-replay/publish-replay.component';
 import { CatchErrorOperatorComponent } from './operators/pages/catch-error-operator/catch-error-operator.component';
+import { RetryOperatorComponent } from './operators/pages/retry-operator/retry-operator.component';
 
 @NgModule({
   declarations: [
@@ -112,7 +113,8 @@ import { CatchErrorOperatorComponent } from './operators/pages/catch-error-opera
     PublishBehaviourOperatorComponent,
     PublishLastComponent,
     PublishReplayComponent,
-    CatchErrorOperatorComponent
+    CatchErrorOperatorComponent,
+    RetryOperatorComponent
   ],
   imports: [
     BrowserModule,
