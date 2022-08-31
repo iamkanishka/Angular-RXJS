@@ -60,6 +60,7 @@ import { RetryOperatorComponent } from './operators/pages/retry-operator/retry-o
 import { RetryWhenComponent } from './operators/pages/retry-when/retry-when.component';
 import { CombineLatestComponent } from './operators/pages/combine-latest/combine-latest.component';
 import { ConcatOperatorComponent } from './operators/pages/concat-operator/concat-operator.component';
+import { ForkJoinOperatorComponent } from './operators/pages/fork-join-operator/fork-join-operator.component';
 
 @NgModule({
   declarations: [
@@ -120,7 +121,8 @@ import { ConcatOperatorComponent } from './operators/pages/concat-operator/conca
     RetryOperatorComponent,
     RetryWhenComponent,
     CombineLatestComponent,
-    ConcatOperatorComponent
+    ConcatOperatorComponent,
+    ForkJoinOperatorComponent
   ],
   imports: [
     BrowserModule,

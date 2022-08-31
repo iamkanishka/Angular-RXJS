@@ -25,6 +25,7 @@ import { ElementAtoperatorComponent } from './operators/pages/element-atoperator
 import { ExhaustMapComponent } from './operators/pages/exhaust-map/exhaust-map.component';
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
 import { FirstoperatorComponent } from './operators/pages/firstoperator/firstoperator.component';
+import { ForkJoinOperatorComponent } from './operators/pages/fork-join-operator/fork-join-operator.component';
 import { IgnoreElementsoperatorComponent } from './operators/pages/ignore-elementsoperator/ignore-elementsoperator.component';
 import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
 import { MapOperatorComponent } from './operators/pages/map-operator/map-operator.component';
@@ -109,6 +110,8 @@ const routes: Routes = [{
     { path:'retryWhen', component: RetryWhenComponent,},
     { path:'combineLatest', component: CombineLatestComponent,},
     { path:'concat', component: ConcatOperatorComponent,},
+    { path:'forkJoin', component: ForkJoinOperatorComponent,},
+
 
 
   ]}

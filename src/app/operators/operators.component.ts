@@ -61,6 +61,7 @@ export class OperatorsComponent implements OnInit {
    "retryWhen",
    "combineLatest",
    "concat",
+   "forkJoin",
 
 
    
