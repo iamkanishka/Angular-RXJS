@@ -16,6 +16,7 @@ import { ColdObservableComponent } from './operators/pages/cold-observable/cold-
 import { CombineLatestComponent } from './operators/pages/combine-latest/combine-latest.component';
 import { ConcatMapToComponent } from './operators/pages/concat-map-to/concat-map-to.component';
 import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.component';
+import { ConcatOperatorComponent } from './operators/pages/concat-operator/concat-operator.component';
 import { DebounceoperatorComponent } from './operators/pages/debounceoperator/debounceoperator.component';
 import { DistintOperatorComponent } from './operators/pages/distint-operator/distint-operator.component';
 import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-until-chnaged-operator/distint-until-chnaged-operator.component';
@@ -107,10 +108,7 @@ const routes: Routes = [{
     { path:'retry', component: RetryOperatorComponent,},
     { path:'retryWhen', component: RetryWhenComponent,},
     { path:'combineLatest', component: CombineLatestComponent,},
-
-
-
-
+    { path:'concat', component: ConcatOperatorComponent,},
 
 
   ]}
