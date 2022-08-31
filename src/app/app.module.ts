@@ -75,6 +75,7 @@ import { MaxOperatorComponent } from './operators/pages/max-operator/max-operato
 import { MinOperatorComponent } from './operators/pages/min-operator/min-operator.component';
 import { ReduceOperatorComponent } from './operators/pages/reduce-operator/reduce-operator.component';
 import { IsemptyOperatorComponent } from './operators/pages/isempty-operator/isempty-operator.component';
+import { FindIndexOperatorComponent } from './operators/pages/find-index-operator/find-index-operator.component';
 
 @NgModule({
   declarations: [
@@ -150,7 +151,8 @@ import { IsemptyOperatorComponent } from './operators/pages/isempty-operator/ise
     MaxOperatorComponent,
     MinOperatorComponent,
     ReduceOperatorComponent,
-    IsemptyOperatorComponent
+    IsemptyOperatorComponent,
+    FindIndexOperatorComponent
   ],
   imports: [
     BrowserModule,

@@ -91,6 +91,7 @@ Mathematical and Aggregation Category
 Conditional and Boolean IsEmpty Category.
 
 86. RXJS IsEmpty Operator.Learn RXJS Conditional and Boolean IsEmptyOperator Reduce Operator - RXJS.
+87. RXJS findIndex Operator.Learn RXJS Conditional and Boolean findIndex Operator Reduce Operator - RXJS.
 
 
 
