@@ -109,7 +109,7 @@ Join Creation
 69. RXJS CombineLatest Operator.Learn Join Creatyion CombineLatest Operator -  RXJS.
 70. RXJS Concat Operator.Learn RXJS Join Creation Operator Concat. RXJS.
 71. RXJS ForkJoin Operator.Learn RXJS Join -  Forkjoin Operator . RXJS.
-71. RXJS merge Operator.Learn RXJS Join -  merge Operator . RXJS.
+72. RXJS merge Operator.Learn RXJS Join -  merge Operator . RXJS.
 
 
 
