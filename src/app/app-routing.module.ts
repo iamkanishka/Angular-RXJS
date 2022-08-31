@@ -45,6 +45,7 @@ import { PublishLastComponent } from './operators/pages/publish-last/publish-las
 import { PublishReplayComponent } from './operators/pages/publish-replay/publish-replay.component';
 import { RaceComponent } from './operators/pages/race/race.component';
 import { RangeOperatorComponent } from './operators/pages/range-operator/range-operator.component';
+import { ReduceOperatorComponent } from './operators/pages/reduce-operator/reduce-operator.component';
 import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
 import { RetryOperatorComponent } from './operators/pages/retry-operator/retry-operator.component';
 import { RetryWhenComponent } from './operators/pages/retry-when/retry-when.component';
@@ -135,6 +136,8 @@ const routes: Routes = [{
     { path:'count', component: CountOperatorComponent,},
     { path:'max', component: MaxOperatorComponent,},
     { path:'min', component: MinOperatorComponent,},
+    { path:'reduce', component: ReduceOperatorComponent,},
+
 
 
 

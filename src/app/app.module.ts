@@ -73,6 +73,7 @@ import { TimerOperatorComponent } from './operators/pages/timer-operator/timer-o
 import { CountOperatorComponent } from './operators/pages/count-operator/count-operator.component';
 import { MaxOperatorComponent } from './operators/pages/max-operator/max-operator.component';
 import { MinOperatorComponent } from './operators/pages/min-operator/min-operator.component';
+import { ReduceOperatorComponent } from './operators/pages/reduce-operator/reduce-operator.component';
 
 @NgModule({
   declarations: [
@@ -146,7 +147,8 @@ import { MinOperatorComponent } from './operators/pages/min-operator/min-operato
     TimerOperatorComponent,
     CountOperatorComponent,
     MaxOperatorComponent,
-    MinOperatorComponent
+    MinOperatorComponent,
+    ReduceOperatorComponent
   ],
   imports: [
     BrowserModule,

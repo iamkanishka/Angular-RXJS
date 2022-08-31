@@ -74,6 +74,7 @@ export class OperatorsComponent implements OnInit {
    "count",
    "max",
    "min",
+   "reduce",
 
 
    
