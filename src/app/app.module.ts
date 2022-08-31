@@ -63,6 +63,7 @@ import { ConcatOperatorComponent } from './operators/pages/concat-operator/conca
 import { ForkJoinOperatorComponent } from './operators/pages/fork-join-operator/fork-join-operator.component';
 import { MergeOperatorComponent } from './operators/pages/merge-operator/merge-operator.component';
 import { PartitionOperatorComponent } from './operators/pages/partition-operator/partition-operator.component';
+import { RaceComponent } from './operators/pages/race/race.component';
 
 @NgModule({
   declarations: [
@@ -126,7 +127,8 @@ import { PartitionOperatorComponent } from './operators/pages/partition-operator
     ConcatOperatorComponent,
     ForkJoinOperatorComponent,
     MergeOperatorComponent,
-    PartitionOperatorComponent
+    PartitionOperatorComponent,
+    RaceComponent
   ],
   imports: [
     BrowserModule,

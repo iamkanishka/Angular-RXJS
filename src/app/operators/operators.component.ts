@@ -64,6 +64,7 @@ export class OperatorsComponent implements OnInit {
    "forkJoin",
    "merge",
    "partition",
+   "race",
 
    
 

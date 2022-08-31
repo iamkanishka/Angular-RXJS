@@ -38,6 +38,7 @@ import { PartitionOperatorComponent } from './operators/pages/partition-operator
 import { PublishBehaviourOperatorComponent } from './operators/pages/publish-behaviour-operator/publish-behaviour-operator.component';
 import { PublishLastComponent } from './operators/pages/publish-last/publish-last.component';
 import { PublishReplayComponent } from './operators/pages/publish-replay/publish-replay.component';
+import { RaceComponent } from './operators/pages/race/race.component';
 import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
 import { RetryOperatorComponent } from './operators/pages/retry-operator/retry-operator.component';
 import { RetryWhenComponent } from './operators/pages/retry-when/retry-when.component';
@@ -115,6 +116,8 @@ const routes: Routes = [{
     { path:'forkJoin', component: ForkJoinOperatorComponent,},
     { path:'merge', component: MergeOperatorComponent,},
     { path:'partition', component: PartitionOperatorComponent,},
+    { path:'race', component: RaceComponent,},
+
 
 
 
