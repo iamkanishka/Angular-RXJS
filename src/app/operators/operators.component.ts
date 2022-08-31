@@ -66,7 +66,8 @@ export class OperatorsComponent implements OnInit {
    "partition",
    "race",
    "zip",
-   "scheduler"
+   "scheduler",
+   "defer",
 
    
 

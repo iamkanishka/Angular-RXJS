@@ -18,6 +18,7 @@ import { ConcatMapToComponent } from './operators/pages/concat-map-to/concat-map
 import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.component';
 import { ConcatOperatorComponent } from './operators/pages/concat-operator/concat-operator.component';
 import { DebounceoperatorComponent } from './operators/pages/debounceoperator/debounceoperator.component';
+import { DeferOperatorComponent } from './operators/pages/defer-operator/defer-operator.component';
 import { DistintOperatorComponent } from './operators/pages/distint-operator/distint-operator.component';
 import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-until-chnaged-operator/distint-until-chnaged-operator.component';
 import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/distint-until-key-chnaged-operator/distint-until-key-chnaged-operator.component';
@@ -121,6 +122,8 @@ const routes: Routes = [{
     { path:'race', component: RaceComponent,},
     { path:'zip', component: ZipoperatorComponent,},
     { path:'scheduler', component: SchedulersComponent,},
+    { path:'defer', component: DeferOperatorComponent,},
+
 
 
 
