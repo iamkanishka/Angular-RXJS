@@ -69,6 +69,7 @@ import { SchedulersComponent } from './operators/pages/schedulers/schedulers.com
 import { DeferOperatorComponent } from './operators/pages/defer-operator/defer-operator.component';
 import { RangeOperatorComponent } from './operators/pages/range-operator/range-operator.component';
 import { GenerateOperatorComponent } from './operators/pages/generate-operator/generate-operator.component';
+import { TimerOperatorComponent } from './operators/pages/timer-operator/timer-operator.component';
 
 @NgModule({
   declarations: [
@@ -138,7 +139,8 @@ import { GenerateOperatorComponent } from './operators/pages/generate-operator/g
     SchedulersComponent,
     DeferOperatorComponent,
     RangeOperatorComponent,
-    GenerateOperatorComponent
+    GenerateOperatorComponent,
+    TimerOperatorComponent
   ],
   imports: [
     BrowserModule,

@@ -61,6 +61,7 @@ import { TakeOperatorComponent } from './operators/pages/take-operator/take-oper
 import { TakeUntilOperatorComponent } from './operators/pages/take-until-operator/take-until-operator.component';
 import { TakeWhileOperatorComponent } from './operators/pages/take-while-operator/take-while-operator.component';
 import { ThrottleoperatorComponent } from './operators/pages/throttleoperator/throttleoperator.component';
+import { TimerOperatorComponent } from './operators/pages/timer-operator/timer-operator.component';
 import { VoidsubjectOperatorComponent } from './operators/pages/voidsubject-operator/voidsubject-operator.component';
 import { ZipoperatorComponent } from './operators/pages/zipoperator/zipoperator.component';
 
@@ -127,6 +128,8 @@ const routes: Routes = [{
     { path:'defer', component: DeferOperatorComponent,},
     { path:'range', component: RangeOperatorComponent,},
     { path:'generate', component: GenerateOperatorComponent,},
+    { path:'timer', component: TimerOperatorComponent,},
+
 
     
 

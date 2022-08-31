@@ -70,6 +70,7 @@ export class OperatorsComponent implements OnInit {
    "defer",
    "range",
    "generate",
+   "timer",
 
    
 
