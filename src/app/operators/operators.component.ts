@@ -62,12 +62,10 @@ export class OperatorsComponent implements OnInit {
    "combineLatest",
    "concat",
    "forkJoin",
-
-
-   
+   "merge",
    
 
-  ];
+];
   constructor() { }
 
   ngOnInit(): void {

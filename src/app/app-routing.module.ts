@@ -31,6 +31,7 @@ import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttope
 import { MapOperatorComponent } from './operators/pages/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to-operator.component';
 import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/merge-map-operator.component';
+import { MergeOperatorComponent } from './operators/pages/merge-operator/merge-operator.component';
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
 import { PublishBehaviourOperatorComponent } from './operators/pages/publish-behaviour-operator/publish-behaviour-operator.component';
@@ -111,6 +112,8 @@ const routes: Routes = [{
     { path:'combineLatest', component: CombineLatestComponent,},
     { path:'concat', component: ConcatOperatorComponent,},
     { path:'forkJoin', component: ForkJoinOperatorComponent,},
+    { path:'merge', component: MergeOperatorComponent,},
+
 
 
 
