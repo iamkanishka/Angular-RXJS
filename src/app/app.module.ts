@@ -68,6 +68,7 @@ import { ZipoperatorComponent } from './operators/pages/zipoperator/zipoperator.
 import { SchedulersComponent } from './operators/pages/schedulers/schedulers.component';
 import { DeferOperatorComponent } from './operators/pages/defer-operator/defer-operator.component';
 import { RangeOperatorComponent } from './operators/pages/range-operator/range-operator.component';
+import { GenerateOperatorComponent } from './operators/pages/generate-operator/generate-operator.component';
 
 @NgModule({
   declarations: [
@@ -136,7 +137,8 @@ import { RangeOperatorComponent } from './operators/pages/range-operator/range-o
     ZipoperatorComponent,
     SchedulersComponent,
     DeferOperatorComponent,
-    RangeOperatorComponent
+    RangeOperatorComponent,
+    GenerateOperatorComponent
   ],
   imports: [
     BrowserModule,

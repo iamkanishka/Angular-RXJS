@@ -27,6 +27,7 @@ import { ExhaustMapComponent } from './operators/pages/exhaust-map/exhaust-map.c
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
 import { FirstoperatorComponent } from './operators/pages/firstoperator/firstoperator.component';
 import { ForkJoinOperatorComponent } from './operators/pages/fork-join-operator/fork-join-operator.component';
+import { GenerateOperatorComponent } from './operators/pages/generate-operator/generate-operator.component';
 import { IgnoreElementsoperatorComponent } from './operators/pages/ignore-elementsoperator/ignore-elementsoperator.component';
 import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
 import { MapOperatorComponent } from './operators/pages/map-operator/map-operator.component';
@@ -125,6 +126,8 @@ const routes: Routes = [{
     { path:'scheduler', component: SchedulersComponent,},
     { path:'defer', component: DeferOperatorComponent,},
     { path:'range', component: RangeOperatorComponent,},
+    { path:'generate', component: GenerateOperatorComponent,},
+
     
 
 
