@@ -115,6 +115,11 @@ Join Creation
 75. RXJS zip Operator.Learn RXJS Join -  zip Operator . RXJS.
 
 
+Schedulers
+
+76. RXJS Schedulers. Learn Async,Asap, Queue, Schedulers in the RXJS Observalbes - RXJS
+
+
 
 
 
