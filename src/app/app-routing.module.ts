@@ -33,6 +33,7 @@ import { IgnoreElementsoperatorComponent } from './operators/pages/ignore-elemen
 import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
 import { MapOperatorComponent } from './operators/pages/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to-operator.component';
+import { MaxOperatorComponent } from './operators/pages/max-operator/max-operator.component';
 import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/merge-map-operator.component';
 import { MergeOperatorComponent } from './operators/pages/merge-operator/merge-operator.component';
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
@@ -131,6 +132,8 @@ const routes: Routes = [{
     { path:'generate', component: GenerateOperatorComponent,},
     { path:'timer', component: TimerOperatorComponent,},
     { path:'count', component: CountOperatorComponent,},
+    { path:'max', component: MaxOperatorComponent,},
+
 
 
 

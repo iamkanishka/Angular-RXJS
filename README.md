@@ -78,7 +78,13 @@ Creation Category
 79. RXJS Range Operator.Learn RXJS Creattion Operator Range Operator - RXJS.
 80. RXJS Generate Operator.Learn RXJS Creattion Operator Generate Operator - RXJS.
 81. RXJS Timer Operator.Learn RXJS Creattion Operator Timer Operator - RXJS.
-82. RXJS Count Operator.Learn RXJS Creattion Operator Count Operator - RXJS.
+
+
+Mathematical and Aggregation Category
+
+82. RXJS Count Operator.Learn RXJS Mathematical and Aggregation Operator Count Operator - RXJS.
+83. RXJS Max Operator.Learn RXJS Mathematical and Aggregation Operator Max Operator - RXJS.
+
 
 
 
