@@ -71,6 +71,7 @@ export class OperatorsComponent implements OnInit {
    "range",
    "generate",
    "timer",
+   "count",
 
    
 

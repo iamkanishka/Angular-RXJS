@@ -17,6 +17,7 @@ import { CombineLatestComponent } from './operators/pages/combine-latest/combine
 import { ConcatMapToComponent } from './operators/pages/concat-map-to/concat-map-to.component';
 import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.component';
 import { ConcatOperatorComponent } from './operators/pages/concat-operator/concat-operator.component';
+import { CountOperatorComponent } from './operators/pages/count-operator/count-operator.component';
 import { DebounceoperatorComponent } from './operators/pages/debounceoperator/debounceoperator.component';
 import { DeferOperatorComponent } from './operators/pages/defer-operator/defer-operator.component';
 import { DistintOperatorComponent } from './operators/pages/distint-operator/distint-operator.component';
@@ -129,6 +130,8 @@ const routes: Routes = [{
     { path:'range', component: RangeOperatorComponent,},
     { path:'generate', component: GenerateOperatorComponent,},
     { path:'timer', component: TimerOperatorComponent,},
+    { path:'count', component: CountOperatorComponent,},
+
 
 
     

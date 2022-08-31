@@ -70,6 +70,7 @@ import { DeferOperatorComponent } from './operators/pages/defer-operator/defer-o
 import { RangeOperatorComponent } from './operators/pages/range-operator/range-operator.component';
 import { GenerateOperatorComponent } from './operators/pages/generate-operator/generate-operator.component';
 import { TimerOperatorComponent } from './operators/pages/timer-operator/timer-operator.component';
+import { CountOperatorComponent } from './operators/pages/count-operator/count-operator.component';
 
 @NgModule({
   declarations: [
@@ -140,7 +141,8 @@ import { TimerOperatorComponent } from './operators/pages/timer-operator/timer-o
     DeferOperatorComponent,
     RangeOperatorComponent,
     GenerateOperatorComponent,
-    TimerOperatorComponent
+    TimerOperatorComponent,
+    CountOperatorComponent
   ],
   imports: [
     BrowserModule,
