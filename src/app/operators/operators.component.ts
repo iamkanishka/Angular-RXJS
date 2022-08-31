@@ -65,6 +65,7 @@ export class OperatorsComponent implements OnInit {
    "merge",
    "partition",
    "race",
+   "zip",
 
    
 

@@ -58,6 +58,7 @@ import { TakeUntilOperatorComponent } from './operators/pages/take-until-operato
 import { TakeWhileOperatorComponent } from './operators/pages/take-while-operator/take-while-operator.component';
 import { ThrottleoperatorComponent } from './operators/pages/throttleoperator/throttleoperator.component';
 import { VoidsubjectOperatorComponent } from './operators/pages/voidsubject-operator/voidsubject-operator.component';
+import { ZipoperatorComponent } from './operators/pages/zipoperator/zipoperator.component';
 
 const routes: Routes = [{
   path:'operators', component:OperatorsComponent, children:[
@@ -117,6 +118,8 @@ const routes: Routes = [{
     { path:'merge', component: MergeOperatorComponent,},
     { path:'partition', component: PartitionOperatorComponent,},
     { path:'race', component: RaceComponent,},
+    { path:'zip', component: ZipoperatorComponent,},
+
 
 
 

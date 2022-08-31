@@ -64,6 +64,7 @@ import { ForkJoinOperatorComponent } from './operators/pages/fork-join-operator/
 import { MergeOperatorComponent } from './operators/pages/merge-operator/merge-operator.component';
 import { PartitionOperatorComponent } from './operators/pages/partition-operator/partition-operator.component';
 import { RaceComponent } from './operators/pages/race/race.component';
+import { ZipoperatorComponent } from './operators/pages/zipoperator/zipoperator.component';
 
 @NgModule({
   declarations: [
@@ -128,7 +129,8 @@ import { RaceComponent } from './operators/pages/race/race.component';
     ForkJoinOperatorComponent,
     MergeOperatorComponent,
     PartitionOperatorComponent,
-    RaceComponent
+    RaceComponent,
+    ZipoperatorComponent
   ],
   imports: [
     BrowserModule,

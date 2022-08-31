@@ -112,6 +112,8 @@ Join Creation
 72. RXJS merge Operator.Learn RXJS Join -  merge Operator . RXJS.
 73. RXJS Partition Operator.Learn RXJS Join -  Partition Operator . RXJS.
 74. RXJS race Operator.Learn RXJS Join -  race Operator . RXJS.
+75. RXJS zip Operator.Learn RXJS Join -  zip Operator . RXJS.
+
 
 
 
