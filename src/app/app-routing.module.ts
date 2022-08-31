@@ -13,6 +13,7 @@ import { BufferWhenOperatorComponent } from './operators/pages/buffer-when-opera
 import { BufferComponent } from './operators/pages/buffer/buffer.component';
 import { CatchErrorOperatorComponent } from './operators/pages/catch-error-operator/catch-error-operator.component';
 import { ColdObservableComponent } from './operators/pages/cold-observable/cold-observable.component';
+import { CombineLatestComponent } from './operators/pages/combine-latest/combine-latest.component';
 import { ConcatMapToComponent } from './operators/pages/concat-map-to/concat-map-to.component';
 import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.component';
 import { DebounceoperatorComponent } from './operators/pages/debounceoperator/debounceoperator.component';
@@ -105,6 +106,8 @@ const routes: Routes = [{
     { path:'catchError', component: CatchErrorOperatorComponent,},
     { path:'retry', component: RetryOperatorComponent,},
     { path:'retryWhen', component: RetryWhenComponent,},
+    { path:'combineLatest', component: CombineLatestComponent,},
+
 
 
 

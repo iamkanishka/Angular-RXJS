@@ -58,6 +58,7 @@ import { PublishReplayComponent } from './operators/pages/publish-replay/publish
 import { CatchErrorOperatorComponent } from './operators/pages/catch-error-operator/catch-error-operator.component';
 import { RetryOperatorComponent } from './operators/pages/retry-operator/retry-operator.component';
 import { RetryWhenComponent } from './operators/pages/retry-when/retry-when.component';
+import { CombineLatestComponent } from './operators/pages/combine-latest/combine-latest.component';
 
 @NgModule({
   declarations: [
@@ -116,7 +117,8 @@ import { RetryWhenComponent } from './operators/pages/retry-when/retry-when.comp
     PublishReplayComponent,
     CatchErrorOperatorComponent,
     RetryOperatorComponent,
-    RetryWhenComponent
+    RetryWhenComponent,
+    CombineLatestComponent
   ],
   imports: [
     BrowserModule,

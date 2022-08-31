@@ -103,7 +103,7 @@ Higher Order Category
 66. RXJS CatchError Operator.Learn Error Handling Catch Error Operator for Observalbes Error - RXJS
 67. RXJS Retry Operator.Learn RXJS Retry Error handling Operator - RXJS.
 68. RXJS RetryWhen Operator.Learn RXJS RetryWhen Error Handling Operator- RXJS.
-
+69. RXJS CombineLatest Operator.Learn Join Creatyion CombineLatest Operator -  RXJS.
 
 
 

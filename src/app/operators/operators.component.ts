@@ -59,6 +59,7 @@ export class OperatorsComponent implements OnInit {
    "catchError",
    "retry",
    "retryWhen",
+   "combineLatest",
 
    
    
