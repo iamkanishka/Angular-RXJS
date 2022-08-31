@@ -24,6 +24,7 @@ import { DistintOperatorComponent } from './operators/pages/distint-operator/dis
 import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-until-chnaged-operator/distint-until-chnaged-operator.component';
 import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/distint-until-key-chnaged-operator/distint-until-key-chnaged-operator.component';
 import { ElementAtoperatorComponent } from './operators/pages/element-atoperator/element-atoperator.component';
+import { EveryOperatorComponent } from './operators/pages/every-operator/every-operator.component';
 import { ExhaustMapComponent } from './operators/pages/exhaust-map/exhaust-map.component';
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
 import { FindIndexOperatorComponent } from './operators/pages/find-index-operator/find-index-operator.component';
@@ -143,6 +144,8 @@ const routes: Routes = [{
     { path:'isEmpty', component: IsemptyOperatorComponent,},
     { path:'FindIndex', component: FindIndexOperatorComponent,},
     { path:'Find', component: FindOperatorComponent,},
+    { path:'every', component: EveryOperatorComponent,},
+
 
 
 
