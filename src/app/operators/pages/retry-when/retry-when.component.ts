@@ -27,38 +27,40 @@ export class RetryWhenComponent implements OnInit {
     }
 
     of(...usersData.users)
-      .pipe(delay(1000), tap((user) => {
+    .pipe(
+      delay(1000),
+      tap((user) => {
         if (!usersData.responseStatus.startsWith('2')) {
-          throw 'Error' + usersData.responseStatus
+          throw usersData.responseStatus;
         }
-      }),retryWhen(error=>{
-        return error.pipe(tap(status=>{
-          if(!status.startsWith('5')){
-            throw 'error'
-          }
-          console.log('Retrying');
-          
-        }))
-      }))
-      .subscribe({
-        next:(data)=>{
-          console.log(data);
-          
-        },
-        error:(error)=>{
-console.log(error);
-
-        },
-        complete:()=>{
-          console.log('Complete');
-          
-        }
+      }),
+      retryWhen((error) => {
+        return error.pipe(
+          tap((status) => {
+            if (!status.startsWith('5')) {
+              throw 'error';
+            }
+            console.log('retrying');
+          })
+        );
       })
+    )
+    .subscribe({
+      next: (data) => {
+        console.log(data);
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
 
-
-    setTimeout(() => {
-      usersData.responseStatus = "200"
-    }, 2000)
-  }
+  setTimeout(() => {
+    if (Math.random() < 0.5) {
+      usersData.responseStatus = '200';
+    } else {
+      usersData.responseStatus = '400';
+    }
+  }, 5000);
+}
 
 }
