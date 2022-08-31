@@ -63,6 +63,8 @@ export class OperatorsComponent implements OnInit {
    "concat",
    "forkJoin",
    "merge",
+   "partition",
+
    
 
 ];

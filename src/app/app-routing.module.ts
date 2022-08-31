@@ -34,6 +34,7 @@ import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/
 import { MergeOperatorComponent } from './operators/pages/merge-operator/merge-operator.component';
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
+import { PartitionOperatorComponent } from './operators/pages/partition-operator/partition-operator.component';
 import { PublishBehaviourOperatorComponent } from './operators/pages/publish-behaviour-operator/publish-behaviour-operator.component';
 import { PublishLastComponent } from './operators/pages/publish-last/publish-last.component';
 import { PublishReplayComponent } from './operators/pages/publish-replay/publish-replay.component';
@@ -113,6 +114,8 @@ const routes: Routes = [{
     { path:'concat', component: ConcatOperatorComponent,},
     { path:'forkJoin', component: ForkJoinOperatorComponent,},
     { path:'merge', component: MergeOperatorComponent,},
+    { path:'partition', component: PartitionOperatorComponent,},
+
 
 
 

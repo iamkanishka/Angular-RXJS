@@ -110,6 +110,8 @@ Join Creation
 70. RXJS Concat Operator.Learn RXJS Join Creation Operator Concat. RXJS.
 71. RXJS ForkJoin Operator.Learn RXJS Join -  Forkjoin Operator . RXJS.
 72. RXJS merge Operator.Learn RXJS Join -  merge Operator . RXJS.
+73. RXJS Partition Operator.Learn RXJS Join -  Partition Operator . RXJS.
+
 
 
 
