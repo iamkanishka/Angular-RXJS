@@ -73,6 +73,8 @@ export class OperatorsComponent implements OnInit {
    "timer",
    "count",
    "max",
+   "min",
+
 
    
 

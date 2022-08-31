@@ -37,6 +37,7 @@ import { MaxOperatorComponent } from './operators/pages/max-operator/max-operato
 import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/merge-map-operator.component';
 import { MergeOperatorComponent } from './operators/pages/merge-operator/merge-operator.component';
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
+import { MinOperatorComponent } from './operators/pages/min-operator/min-operator.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
 import { PartitionOperatorComponent } from './operators/pages/partition-operator/partition-operator.component';
 import { PublishBehaviourOperatorComponent } from './operators/pages/publish-behaviour-operator/publish-behaviour-operator.component';
@@ -133,6 +134,8 @@ const routes: Routes = [{
     { path:'timer', component: TimerOperatorComponent,},
     { path:'count', component: CountOperatorComponent,},
     { path:'max', component: MaxOperatorComponent,},
+    { path:'min', component: MinOperatorComponent,},
+
 
 
 

@@ -84,6 +84,8 @@ Mathematical and Aggregation Category
 
 82. RXJS Count Operator.Learn RXJS Mathematical and Aggregation Operator Count Operator - RXJS.
 83. RXJS Max Operator.Learn RXJS Mathematical and Aggregation Operator Max Operator - RXJS.
+84. RXJS Min Operator.Learn RXJS Mathematical and Aggregation Operator Min Operator - RXJS.
+
 
 
 
