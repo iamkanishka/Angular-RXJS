@@ -27,6 +27,7 @@ import { ElementAtoperatorComponent } from './operators/pages/element-atoperator
 import { ExhaustMapComponent } from './operators/pages/exhaust-map/exhaust-map.component';
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
 import { FindIndexOperatorComponent } from './operators/pages/find-index-operator/find-index-operator.component';
+import { FindOperatorComponent } from './operators/pages/find-operator/find-operator.component';
 import { FirstoperatorComponent } from './operators/pages/firstoperator/firstoperator.component';
 import { ForkJoinOperatorComponent } from './operators/pages/fork-join-operator/fork-join-operator.component';
 import { GenerateOperatorComponent } from './operators/pages/generate-operator/generate-operator.component';
@@ -141,6 +142,8 @@ const routes: Routes = [{
     { path:'reduce', component: ReduceOperatorComponent,},
     { path:'isEmpty', component: IsemptyOperatorComponent,},
     { path:'FindIndex', component: FindIndexOperatorComponent,},
+    { path:'Find', component: FindOperatorComponent,},
+
 
 
 

@@ -77,6 +77,8 @@ export class OperatorsComponent implements OnInit {
    "reduce",
    "isEmpty",
    "FindIndex",
+   "Find",
+
 
 
    
