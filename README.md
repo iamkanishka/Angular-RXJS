@@ -88,6 +88,10 @@ Mathematical and Aggregation Category
 85. RXJS Reduce Operator.Learn RXJS Mathematical and Aggregation Operator Reduce Operator - RXJS.
 
 
+Conditional and Boolean IsEmpty Category.
+
+86. RXJS IsEmpty Operator.Learn RXJS Conditional and Boolean IsEmptyOperator Reduce Operator - RXJS.
+
 
 
 

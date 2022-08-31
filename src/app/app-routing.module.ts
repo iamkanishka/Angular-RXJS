@@ -30,6 +30,7 @@ import { FirstoperatorComponent } from './operators/pages/firstoperator/firstope
 import { ForkJoinOperatorComponent } from './operators/pages/fork-join-operator/fork-join-operator.component';
 import { GenerateOperatorComponent } from './operators/pages/generate-operator/generate-operator.component';
 import { IgnoreElementsoperatorComponent } from './operators/pages/ignore-elementsoperator/ignore-elementsoperator.component';
+import { IsemptyOperatorComponent } from './operators/pages/isempty-operator/isempty-operator.component';
 import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
 import { MapOperatorComponent } from './operators/pages/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to-operator.component';
@@ -137,6 +138,8 @@ const routes: Routes = [{
     { path:'max', component: MaxOperatorComponent,},
     { path:'min', component: MinOperatorComponent,},
     { path:'reduce', component: ReduceOperatorComponent,},
+    { path:'isEmpty', component: IsemptyOperatorComponent,},
+
 
 
 
