@@ -68,6 +68,7 @@ export class OperatorsComponent implements OnInit {
    "zip",
    "scheduler",
    "defer",
+   "range",
 
    
 

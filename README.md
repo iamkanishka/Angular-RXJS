@@ -75,6 +75,7 @@ Creation Category
 
 42. RXJS ajax Operator.Learn RXJS Creation Category ajax operator Category.
 78. RXJS Defer Operator.Learn RXJS Creation Operator Function Defer -RXJS.
+79. RXJS Range Operator.Learn RXJS Creattion Operator Range Operator - RXJS.
 
 Higher Order Category
 

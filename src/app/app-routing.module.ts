@@ -40,6 +40,7 @@ import { PublishBehaviourOperatorComponent } from './operators/pages/publish-beh
 import { PublishLastComponent } from './operators/pages/publish-last/publish-last.component';
 import { PublishReplayComponent } from './operators/pages/publish-replay/publish-replay.component';
 import { RaceComponent } from './operators/pages/race/race.component';
+import { RangeOperatorComponent } from './operators/pages/range-operator/range-operator.component';
 import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-operator/replaysubject-operator.component';
 import { RetryOperatorComponent } from './operators/pages/retry-operator/retry-operator.component';
 import { RetryWhenComponent } from './operators/pages/retry-when/retry-when.component';
@@ -123,6 +124,9 @@ const routes: Routes = [{
     { path:'zip', component: ZipoperatorComponent,},
     { path:'scheduler', component: SchedulersComponent,},
     { path:'defer', component: DeferOperatorComponent,},
+    { path:'range', component: RangeOperatorComponent,},
+    
+
 
 
 
