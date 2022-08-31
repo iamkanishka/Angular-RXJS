@@ -117,7 +117,7 @@ Join Creation
 
 Schedulers
 
-76. RXJS Schedulers. Learn Async,Asap, Queue, Schedulers in the RXJS Observalbes - RXJS
+76. RXJS Schedulers. Learn Async,Asap, Queue, Schedulers in the RXJS Observalbes - RXJS.
 
 
 

@@ -43,6 +43,7 @@ import { ReplaysubjectOperatorComponent } from './operators/pages/replaysubject-
 import { RetryOperatorComponent } from './operators/pages/retry-operator/retry-operator.component';
 import { RetryWhenComponent } from './operators/pages/retry-when/retry-when.component';
 import { SampleoperatorComponent } from './operators/pages/sampleoperator/sampleoperator.component';
+import { SchedulersComponent } from './operators/pages/schedulers/schedulers.component';
 import { ShareOperatorComponent } from './operators/pages/share-operator/share-operator.component';
 import { SingleoperatorComponent } from './operators/pages/singleoperator/singleoperator.component';
 import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/skip-last-operator.component';
@@ -119,6 +120,8 @@ const routes: Routes = [{
     { path:'partition', component: PartitionOperatorComponent,},
     { path:'race', component: RaceComponent,},
     { path:'zip', component: ZipoperatorComponent,},
+    { path:'scheduler', component: SchedulersComponent,},
+
 
 
 
