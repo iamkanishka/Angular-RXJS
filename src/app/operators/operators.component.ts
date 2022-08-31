@@ -58,6 +58,7 @@ export class OperatorsComponent implements OnInit {
    "publishReplay",
    "catchError",
    "retry",
+   "retryWhen",
 
    
    
