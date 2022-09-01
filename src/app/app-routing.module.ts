@@ -19,6 +19,7 @@ import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.comp
 import { ConcatOperatorComponent } from './operators/pages/concat-operator/concat-operator.component';
 import { CountOperatorComponent } from './operators/pages/count-operator/count-operator.component';
 import { DebounceoperatorComponent } from './operators/pages/debounceoperator/debounceoperator.component';
+import { DefaultEmptyOpeartorComponent } from './operators/pages/default-empty-opeartor/default-empty-opeartor.component';
 import { DeferOperatorComponent } from './operators/pages/defer-operator/defer-operator.component';
 import { DistintOperatorComponent } from './operators/pages/distint-operator/distint-operator.component';
 import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-until-chnaged-operator/distint-until-chnaged-operator.component';
@@ -145,6 +146,8 @@ const routes: Routes = [{
     { path:'FindIndex', component: FindIndexOperatorComponent,},
     { path:'Find', component: FindOperatorComponent,},
     { path:'every', component: EveryOperatorComponent,},
+    { path:'defaultEmpty', component: DefaultEmptyOpeartorComponent,},
+
 
 
 
