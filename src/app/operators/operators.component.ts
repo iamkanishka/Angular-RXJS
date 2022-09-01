@@ -86,6 +86,7 @@ export class OperatorsComponent implements OnInit {
    "materialize",
    "dematerialize",
    "delay",
+   "combineLatestAll"
    
 
 

@@ -13,6 +13,7 @@ import { BufferWhenOperatorComponent } from './operators/pages/buffer-when-opera
 import { BufferComponent } from './operators/pages/buffer/buffer.component';
 import { CatchErrorOperatorComponent } from './operators/pages/catch-error-operator/catch-error-operator.component';
 import { ColdObservableComponent } from './operators/pages/cold-observable/cold-observable.component';
+import { CombineLatestAllOpeartorComponent } from './operators/pages/combine-latest-all-opeartor/combine-latest-all-opeartor.component';
 import { CombineLatestComponent } from './operators/pages/combine-latest/combine-latest.component';
 import { ConcatMapToComponent } from './operators/pages/concat-map-to/concat-map-to.component';
 import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.component';
@@ -159,6 +160,8 @@ const routes: Routes = [{
     { path:'materialize', component: MaterializeOpeartorComponent,},
     { path:'dematerialize', component: DematerializeOpeartorComponent,},
     { path:'delay', component: DelayOpeartorComponent,},
+    { path:'combineLatestAll', component: CombineLatestAllOpeartorComponent,},
+
 
 
 

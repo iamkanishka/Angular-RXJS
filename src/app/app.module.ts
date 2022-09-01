@@ -85,6 +85,7 @@ import { ObserveOnOpeartorComponent } from './operators/pages/observe-on-opearto
 import { MaterializeOpeartorComponent } from './operators/pages/materialize-opeartor/materialize-opeartor.component';
 import { DematerializeOpeartorComponent } from './operators/pages/dematerialize-opeartor/dematerialize-opeartor.component';
 import { DelayOpeartorComponent } from './operators/pages/delay-opeartor/delay-opeartor.component';
+import { CombineLatestAllOpeartorComponent } from './operators/pages/combine-latest-all-opeartor/combine-latest-all-opeartor.component';
 
 @NgModule({
   declarations: [
@@ -170,7 +171,8 @@ import { DelayOpeartorComponent } from './operators/pages/delay-opeartor/delay-o
     ObserveOnOpeartorComponent,
     MaterializeOpeartorComponent,
     DematerializeOpeartorComponent,
-    DelayOpeartorComponent
+    DelayOpeartorComponent,
+    CombineLatestAllOpeartorComponent
   ],
   imports: [
     BrowserModule,
