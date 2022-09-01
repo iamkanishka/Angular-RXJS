@@ -15,6 +15,7 @@ import { CatchErrorOperatorComponent } from './operators/pages/catch-error-opera
 import { ColdObservableComponent } from './operators/pages/cold-observable/cold-observable.component';
 import { CombineLatestAllOpeartorComponent } from './operators/pages/combine-latest-all-opeartor/combine-latest-all-opeartor.component';
 import { CombineLatestComponent } from './operators/pages/combine-latest/combine-latest.component';
+import { ConcatAllOpeartorComponent } from './operators/pages/concat-all-opeartor/concat-all-opeartor.component';
 import { ConcatMapToComponent } from './operators/pages/concat-map-to/concat-map-to.component';
 import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.component';
 import { ConcatOperatorComponent } from './operators/pages/concat-operator/concat-operator.component';
@@ -161,6 +162,8 @@ const routes: Routes = [{
     { path:'dematerialize', component: DematerializeOpeartorComponent,},
     { path:'delay', component: DelayOpeartorComponent,},
     { path:'combineLatestAll', component: CombineLatestAllOpeartorComponent,},
+    { path:'concatAll', component: ConcatAllOpeartorComponent,},
+
 
 
 
