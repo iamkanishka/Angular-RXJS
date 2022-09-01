@@ -100,8 +100,8 @@ Conditional and Boolean IsEmpty Category.
 
 Utility Category
 
-91. RXJS toArray Operator.Learn RXJS ToArray Operator -RXJS.
-92. RXJS SubscribeOn Operator.Learn RXJS SubscribeOn Operator -RXJS.
+91. RXJS toArray Operator.Learn RXJS Utility ToArray Operator -RXJS.
+92. RXJS SubscribeOn Operator.Learn RXJS Utility SubscribeOn Operator -RXJS.
 
 
 
