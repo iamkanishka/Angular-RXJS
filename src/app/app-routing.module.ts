@@ -38,6 +38,7 @@ import { IsemptyOperatorComponent } from './operators/pages/isempty-operator/ise
 import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
 import { MapOperatorComponent } from './operators/pages/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to-operator.component';
+import { MaterializeOpeartorComponent } from './operators/pages/materialize-opeartor/materialize-opeartor.component';
 import { MaxOperatorComponent } from './operators/pages/max-operator/max-operator.component';
 import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/merge-map-operator.component';
 import { MergeOperatorComponent } from './operators/pages/merge-operator/merge-operator.component';
@@ -153,6 +154,7 @@ const routes: Routes = [{
     { path:'toArray', component: ToArrayOpeartorComponent,},
     { path:'SubscribeOn', component: SubscribeOnOpeartorComponent,},
     { path:'ObserveOn', component: ObserveOnOpeartorComponent,},
+    { path:'materialize', component: MaterializeOpeartorComponent,},
 
 
 
