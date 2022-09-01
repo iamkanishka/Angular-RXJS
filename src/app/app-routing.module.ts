@@ -30,6 +30,7 @@ import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-
 import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/distint-until-key-chnaged-operator/distint-until-key-chnaged-operator.component';
 import { ElementAtoperatorComponent } from './operators/pages/element-atoperator/element-atoperator.component';
 import { EveryOperatorComponent } from './operators/pages/every-operator/every-operator.component';
+import { ExhaustAllOpeartorComponent } from './operators/pages/exhaust-all-opeartor/exhaust-all-opeartor.component';
 import { ExhaustMapComponent } from './operators/pages/exhaust-map/exhaust-map.component';
 import { FilterOperatorComponent } from './operators/pages/filter-operator/filter-operator.component';
 import { FindIndexOperatorComponent } from './operators/pages/find-index-operator/find-index-operator.component';
@@ -163,6 +164,8 @@ const routes: Routes = [{
     { path:'delay', component: DelayOpeartorComponent,},
     { path:'combineLatestAll', component: CombineLatestAllOpeartorComponent,},
     { path:'concatAll', component: ConcatAllOpeartorComponent,},
+    { path:'exhaustAll', component: ExhaustAllOpeartorComponent,},
+
 
 
 

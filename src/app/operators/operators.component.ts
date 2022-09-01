@@ -88,6 +88,7 @@ export class OperatorsComponent implements OnInit {
    "delay",
    "combineLatestAll",
    "concatAll",
+   "exhaustAll",
    
 
 
