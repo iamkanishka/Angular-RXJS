@@ -104,6 +104,8 @@ Utility Category
 92. RXJS SubscribeOn Operator.Learn RXJS Utility SubscribeOn Operator with Schedulers -RXJS.
 93. RXJS ObserveOn Operator.Learn RXJS Utility ObserveOn Operator with Schedulers -RXJS.
 94. RXJS materialize Operator.Learn RXJS Utility materialize Operator -RXJS.
+95. RXJS dematerialize Operator.Learn RXJS Utility dematerialize Operator -RXJS.
+
 
 
 
