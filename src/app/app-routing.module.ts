@@ -44,6 +44,7 @@ import { MergeOperatorComponent } from './operators/pages/merge-operator/merge-o
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
 import { MinOperatorComponent } from './operators/pages/min-operator/min-operator.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
+import { ObserveOnOpeartorComponent } from './operators/pages/observe-on-opeartor/observe-on-opeartor.component';
 import { PartitionOperatorComponent } from './operators/pages/partition-operator/partition-operator.component';
 import { PublishBehaviourOperatorComponent } from './operators/pages/publish-behaviour-operator/publish-behaviour-operator.component';
 import { PublishLastComponent } from './operators/pages/publish-last/publish-last.component';
@@ -151,6 +152,8 @@ const routes: Routes = [{
     { path:'defaultEmpty', component: DefaultEmptyOpeartorComponent,},
     { path:'toArray', component: ToArrayOpeartorComponent,},
     { path:'SubscribeOn', component: SubscribeOnOpeartorComponent,},
+    { path:'ObserveOn', component: ObserveOnOpeartorComponent,},
+
 
 
 

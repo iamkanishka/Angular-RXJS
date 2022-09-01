@@ -82,6 +82,7 @@ export class OperatorsComponent implements OnInit {
    "defaultEmpty",
    "toArray",
    "SubscribeOn",
+   "ObserveOn",
 
 
 

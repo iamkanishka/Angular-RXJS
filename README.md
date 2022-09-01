@@ -102,6 +102,8 @@ Utility Category
 
 91. RXJS toArray Operator.Learn RXJS Utility ToArray Operator -RXJS.
 92. RXJS SubscribeOn Operator.Learn RXJS Utility SubscribeOn Operator -RXJS.
+93. RXJS ObserveOn Operator.Learn RXJS Utility ObserveOn Operator with Schedulers -RXJS.
+
 
 
 
