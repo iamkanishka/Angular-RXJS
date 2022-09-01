@@ -15,7 +15,9 @@ export class MaterializeOpeartorComponent implements OnInit {
    
 
     source$
-    .pipe(map((data)=>{throw 'Caught Error'}),materialize())
+    .pipe(
+      //map((data)=>{throw 'Caught Error'}),
+      materialize())
     .subscribe({
       next: (data) => {
         console.log(data);

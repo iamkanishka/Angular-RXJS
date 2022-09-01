@@ -84,6 +84,8 @@ export class OperatorsComponent implements OnInit {
    "SubscribeOn",
    "ObserveOn",
    "materialize",
+   "dematerialize",
+   
 
 
 

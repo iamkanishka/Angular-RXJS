@@ -83,6 +83,7 @@ import { ToArrayOpeartorComponent } from './operators/pages/to-array-opeartor/to
 import { SubscribeOnOpeartorComponent } from './operators/pages/subscribe-on-opeartor/subscribe-on-opeartor.component';
 import { ObserveOnOpeartorComponent } from './operators/pages/observe-on-opeartor/observe-on-opeartor.component';
 import { MaterializeOpeartorComponent } from './operators/pages/materialize-opeartor/materialize-opeartor.component';
+import { DematerializeOpeartorComponent } from './operators/pages/dematerialize-opeartor/dematerialize-opeartor.component';
 
 @NgModule({
   declarations: [
@@ -166,7 +167,8 @@ import { MaterializeOpeartorComponent } from './operators/pages/materialize-opea
     ToArrayOpeartorComponent,
     SubscribeOnOpeartorComponent,
     ObserveOnOpeartorComponent,
-    MaterializeOpeartorComponent
+    MaterializeOpeartorComponent,
+    DematerializeOpeartorComponent
   ],
   imports: [
     BrowserModule,

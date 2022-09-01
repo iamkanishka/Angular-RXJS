@@ -21,6 +21,7 @@ import { CountOperatorComponent } from './operators/pages/count-operator/count-o
 import { DebounceoperatorComponent } from './operators/pages/debounceoperator/debounceoperator.component';
 import { DefaultEmptyOpeartorComponent } from './operators/pages/default-empty-opeartor/default-empty-opeartor.component';
 import { DeferOperatorComponent } from './operators/pages/defer-operator/defer-operator.component';
+import { DematerializeOpeartorComponent } from './operators/pages/dematerialize-opeartor/dematerialize-opeartor.component';
 import { DistintOperatorComponent } from './operators/pages/distint-operator/distint-operator.component';
 import { DistintUntilChnagedOperatorComponent } from './operators/pages/distint-until-chnaged-operator/distint-until-chnaged-operator.component';
 import { DistintUntilKeyChnagedOperatorComponent } from './operators/pages/distint-until-key-chnaged-operator/distint-until-key-chnaged-operator.component';
@@ -155,6 +156,8 @@ const routes: Routes = [{
     { path:'SubscribeOn', component: SubscribeOnOpeartorComponent,},
     { path:'ObserveOn', component: ObserveOnOpeartorComponent,},
     { path:'materialize', component: MaterializeOpeartorComponent,},
+    { path:'dematerialize', component: DematerializeOpeartorComponent,},
+
 
 
 
