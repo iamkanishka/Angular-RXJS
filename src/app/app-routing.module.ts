@@ -71,6 +71,7 @@ import { TakeUntilOperatorComponent } from './operators/pages/take-until-operato
 import { TakeWhileOperatorComponent } from './operators/pages/take-while-operator/take-while-operator.component';
 import { ThrottleoperatorComponent } from './operators/pages/throttleoperator/throttleoperator.component';
 import { TimerOperatorComponent } from './operators/pages/timer-operator/timer-operator.component';
+import { ToArrayOpeartorComponent } from './operators/pages/to-array-opeartor/to-array-opeartor.component';
 import { VoidsubjectOperatorComponent } from './operators/pages/voidsubject-operator/voidsubject-operator.component';
 import { ZipoperatorComponent } from './operators/pages/zipoperator/zipoperator.component';
 
@@ -147,6 +148,8 @@ const routes: Routes = [{
     { path:'Find', component: FindOperatorComponent,},
     { path:'every', component: EveryOperatorComponent,},
     { path:'defaultEmpty', component: DefaultEmptyOpeartorComponent,},
+    { path:'toArray', component: ToArrayOpeartorComponent,},
+
 
 
 
