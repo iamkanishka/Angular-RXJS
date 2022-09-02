@@ -71,6 +71,7 @@ import { SkipUntilOperatorComponent } from './operators/pages/skip-until-operato
 import { SkipWhileOperatorComponent } from './operators/pages/skip-while-operator/skip-while-operator.component';
 import { SubjectComponent } from './operators/pages/subject/subject.component';
 import { SubscribeOnOpeartorComponent } from './operators/pages/subscribe-on-opeartor/subscribe-on-opeartor.component';
+import { SwitchAllComponent } from './operators/pages/switch-all/switch-all.component';
 import { SwitchMapToComponent } from './operators/pages/switch-map-to/switch-map-to.component';
 import { SwitchMapComponent } from './operators/pages/switch-map/switch-map.component';
 import { TakeLastComponent } from './operators/pages/take-last/take-last.component';
@@ -165,6 +166,8 @@ const routes: Routes = [{
     { path:'combineLatestAll', component: CombineLatestAllOpeartorComponent,},
     { path:'concatAll', component: ConcatAllOpeartorComponent,},
     { path:'exhaustAll', component: ExhaustAllOpeartorComponent,},
+    { path:'switchAll', component: SwitchAllComponent,},
+
 
 
 

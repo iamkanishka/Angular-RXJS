@@ -89,6 +89,7 @@ export class OperatorsComponent implements OnInit {
    "combineLatestAll",
    "concatAll",
    "exhaustAll",
+   "switchAll",
    
 
 
