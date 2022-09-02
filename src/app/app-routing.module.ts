@@ -89,6 +89,7 @@ import { VoidsubjectOperatorComponent } from './operators/pages/voidsubject-oper
 import { WindowCountOperatorComponent } from './operators/pages/window-count-operator/window-count-operator.component';
 import { WindowOperatorComponent } from './operators/pages/window-operator/window-operator.component';
 import { WindowTimeOperatorComponent } from './operators/pages/window-time-operator/window-time-operator.component';
+import { WindowToggleOperatorComponent } from './operators/pages/window-toggle-operator/window-toggle-operator.component';
 import { WithLatestFromOperatorComponent } from './operators/pages/with-latest-from-operator/with-latest-from-operator.component';
 import { ZipoperatorComponent } from './operators/pages/zipoperator/zipoperator.component';
 
@@ -183,6 +184,8 @@ const routes: Routes = [{
     { path:'window', component: WindowOperatorComponent,},
     { path:'windowCount', component: WindowCountOperatorComponent,},
     { path:'windowTime', component: WindowTimeOperatorComponent,},
+    { path:'windowToggle', component: WindowToggleOperatorComponent,},
+
 
 
 

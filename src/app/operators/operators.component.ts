@@ -98,6 +98,7 @@ export class OperatorsComponent implements OnInit {
    "window",
    "windowCount",
    "windowTime",
+   "windowToggle",
 
 
 

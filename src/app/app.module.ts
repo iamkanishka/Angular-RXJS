@@ -97,6 +97,7 @@ import { PairwiseOperatorComponent } from './operators/pages/pairwise-operator/p
 import { WindowOperatorComponent } from './operators/pages/window-operator/window-operator.component';
 import { WindowCountOperatorComponent } from './operators/pages/window-count-operator/window-count-operator.component';
 import { WindowTimeOperatorComponent } from './operators/pages/window-time-operator/window-time-operator.component';
+import { WindowToggleOperatorComponent } from './operators/pages/window-toggle-operator/window-toggle-operator.component';
 
 @NgModule({
   declarations: [
@@ -194,7 +195,8 @@ import { WindowTimeOperatorComponent } from './operators/pages/window-time-opera
     PairwiseOperatorComponent,
     WindowOperatorComponent,
     WindowCountOperatorComponent,
-    WindowTimeOperatorComponent
+    WindowTimeOperatorComponent,
+    WindowToggleOperatorComponent
   ],
   imports: [
     BrowserModule,
