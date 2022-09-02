@@ -94,6 +94,7 @@ export class OperatorsComponent implements OnInit {
    "startWith",
    "withLatestFrom",
    "GroupBy",
+   "pairwise",
 
    
 

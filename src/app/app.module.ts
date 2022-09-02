@@ -93,6 +93,7 @@ import { MergeAllOperatorComponent } from './operators/pages/merge-all-operator/
 import { StartwithOperatorComponent } from './operators/pages/startwith-operator/startwith-operator.component';
 import { WithLatestFromOperatorComponent } from './operators/pages/with-latest-from-operator/with-latest-from-operator.component';
 import { GroupByOperatorComponent } from './operators/pages/group-by-operator/group-by-operator.component';
+import { PairwiseOperatorComponent } from './operators/pages/pairwise-operator/pairwise-operator.component';
 
 @NgModule({
   declarations: [
@@ -186,7 +187,8 @@ import { GroupByOperatorComponent } from './operators/pages/group-by-operator/gr
     MergeAllOperatorComponent,
     StartwithOperatorComponent,
     WithLatestFromOperatorComponent,
-    GroupByOperatorComponent
+    GroupByOperatorComponent,
+    PairwiseOperatorComponent
   ],
   imports: [
     BrowserModule,
