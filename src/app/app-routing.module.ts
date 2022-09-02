@@ -45,6 +45,7 @@ import { MapOperatorComponent } from './operators/pages/map-operator/map-operato
 import { MapToOperatorComponent } from './operators/pages/map-to-operator/map-to-operator.component';
 import { MaterializeOpeartorComponent } from './operators/pages/materialize-opeartor/materialize-opeartor.component';
 import { MaxOperatorComponent } from './operators/pages/max-operator/max-operator.component';
+import { MergeAllOperatorComponent } from './operators/pages/merge-all-operator/merge-all-operator.component';
 import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/merge-map-operator.component';
 import { MergeOperatorComponent } from './operators/pages/merge-operator/merge-operator.component';
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
@@ -167,6 +168,8 @@ const routes: Routes = [{
     { path:'concatAll', component: ConcatAllOpeartorComponent,},
     { path:'exhaustAll', component: ExhaustAllOpeartorComponent,},
     { path:'switchAll', component: SwitchAllComponent,},
+    { path:'mergeAll', component: MergeAllOperatorComponent,},
+
 
 
 

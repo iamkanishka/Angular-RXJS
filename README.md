@@ -114,6 +114,8 @@ Join Category
 98. RXJS ConcatAll Operator.Learn RXJS Join Category ConcatAll Operator -RXJS.
 99. RXJS exhaustAll Operator.Learn RXJS Join Category exhaustAll Operator -RXJS.
 100. RXJS swicthAll Operator.Learn RXJS Join Category swicthAll Operator -RXJS.
+101. RXJS mergeAll Operator.Learn RXJS Join Category mergeAll Operator -RXJS.
+
 
 
  

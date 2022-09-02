@@ -90,6 +90,7 @@ export class OperatorsComponent implements OnInit {
    "concatAll",
    "exhaustAll",
    "switchAll",
+   "mergeAll",
    
 
 
