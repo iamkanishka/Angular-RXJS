@@ -96,6 +96,8 @@ export class OperatorsComponent implements OnInit {
    "GroupBy",
    "pairwise",
    "window",
+   "windowCount",
+
 
    
 

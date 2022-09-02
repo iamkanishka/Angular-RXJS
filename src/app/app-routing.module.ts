@@ -86,6 +86,7 @@ import { ThrottleoperatorComponent } from './operators/pages/throttleoperator/th
 import { TimerOperatorComponent } from './operators/pages/timer-operator/timer-operator.component';
 import { ToArrayOpeartorComponent } from './operators/pages/to-array-opeartor/to-array-opeartor.component';
 import { VoidsubjectOperatorComponent } from './operators/pages/voidsubject-operator/voidsubject-operator.component';
+import { WindowCountOperatorComponent } from './operators/pages/window-count-operator/window-count-operator.component';
 import { WindowOperatorComponent } from './operators/pages/window-operator/window-operator.component';
 import { WithLatestFromOperatorComponent } from './operators/pages/with-latest-from-operator/with-latest-from-operator.component';
 import { ZipoperatorComponent } from './operators/pages/zipoperator/zipoperator.component';
@@ -179,6 +180,8 @@ const routes: Routes = [{
     { path:'GroupBy', component: GroupByOperatorComponent,},
     { path:'pairwise', component: PairwiseOperatorComponent,},
     { path:'window', component: WindowOperatorComponent,},
+    { path:'windowCount', component: WindowCountOperatorComponent,},
+
 
 
 
