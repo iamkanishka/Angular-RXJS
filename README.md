@@ -46,6 +46,9 @@ Transformation Operator
 18. RXJS BufferWhen Operator.Learn BufferWhen Operator in Trasnformation Category.
 104. RXJS GroupBy Operator.Learn GroupBy Operator in Trasnformation Category.
 105. RXJS pairwise Operator.Learn pairwise Operator in Trasnformation Category.
+106. RXJS window Operator.Learn window Operator in Trasnformation Category.
+
+
 
 
 

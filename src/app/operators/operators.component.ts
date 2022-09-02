@@ -95,6 +95,7 @@ export class OperatorsComponent implements OnInit {
    "withLatestFrom",
    "GroupBy",
    "pairwise",
+   "window",
 
    
 
