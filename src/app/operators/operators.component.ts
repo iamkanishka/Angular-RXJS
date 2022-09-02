@@ -97,6 +97,8 @@ export class OperatorsComponent implements OnInit {
    "pairwise",
    "window",
    "windowCount",
+   "windowTime",
+
 
 
    
