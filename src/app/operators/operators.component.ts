@@ -93,6 +93,7 @@ export class OperatorsComponent implements OnInit {
    "mergeAll",
    "startWith",
    "withLatestFrom",
+   "GroupBy",
 
    
 

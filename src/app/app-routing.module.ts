@@ -38,6 +38,7 @@ import { FindOperatorComponent } from './operators/pages/find-operator/find-oper
 import { FirstoperatorComponent } from './operators/pages/firstoperator/firstoperator.component';
 import { ForkJoinOperatorComponent } from './operators/pages/fork-join-operator/fork-join-operator.component';
 import { GenerateOperatorComponent } from './operators/pages/generate-operator/generate-operator.component';
+import { GroupByOperatorComponent } from './operators/pages/group-by-operator/group-by-operator.component';
 import { IgnoreElementsoperatorComponent } from './operators/pages/ignore-elementsoperator/ignore-elementsoperator.component';
 import { IsemptyOperatorComponent } from './operators/pages/isempty-operator/isempty-operator.component';
 import { LasttoperatorComponent } from './operators/pages/lasttoperator/lasttoperator.component';
@@ -173,6 +174,8 @@ const routes: Routes = [{
     { path:'mergeAll', component: MergeAllOperatorComponent,},
     { path:'startWith', component: StartwithOperatorComponent,},
     { path:'withLatestFrom', component: WithLatestFromOperatorComponent,},
+    { path:'GroupBy', component: GroupByOperatorComponent,},
+
 
 
 

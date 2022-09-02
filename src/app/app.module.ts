@@ -92,6 +92,7 @@ import { SwitchAllComponent } from './operators/pages/switch-all/switch-all.comp
 import { MergeAllOperatorComponent } from './operators/pages/merge-all-operator/merge-all-operator.component';
 import { StartwithOperatorComponent } from './operators/pages/startwith-operator/startwith-operator.component';
 import { WithLatestFromOperatorComponent } from './operators/pages/with-latest-from-operator/with-latest-from-operator.component';
+import { GroupByOperatorComponent } from './operators/pages/group-by-operator/group-by-operator.component';
 
 @NgModule({
   declarations: [
@@ -184,7 +185,8 @@ import { WithLatestFromOperatorComponent } from './operators/pages/with-latest-f
     SwitchAllComponent,
     MergeAllOperatorComponent,
     StartwithOperatorComponent,
-    WithLatestFromOperatorComponent
+    WithLatestFromOperatorComponent,
+    GroupByOperatorComponent
   ],
   imports: [
     BrowserModule,
