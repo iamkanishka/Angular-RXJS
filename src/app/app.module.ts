@@ -90,6 +90,7 @@ import { ConcatAllOpeartorComponent } from './operators/pages/concat-all-opearto
 import { ExhaustAllOpeartorComponent } from './operators/pages/exhaust-all-opeartor/exhaust-all-opeartor.component';
 import { SwitchAllComponent } from './operators/pages/switch-all/switch-all.component';
 import { MergeAllOperatorComponent } from './operators/pages/merge-all-operator/merge-all-operator.component';
+import { StartwithOperatorComponent } from './operators/pages/startwith-operator/startwith-operator.component';
 
 @NgModule({
   declarations: [
@@ -180,7 +181,8 @@ import { MergeAllOperatorComponent } from './operators/pages/merge-all-operator/
     ConcatAllOpeartorComponent,
     ExhaustAllOpeartorComponent,
     SwitchAllComponent,
-    MergeAllOperatorComponent
+    MergeAllOperatorComponent,
+    StartwithOperatorComponent
   ],
   imports: [
     BrowserModule,

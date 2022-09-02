@@ -70,6 +70,7 @@ import { SkipLastOperatorComponent } from './operators/pages/skip-last-operator/
 import { SkipOperatorComponent } from './operators/pages/skip-operator/skip-operator.component';
 import { SkipUntilOperatorComponent } from './operators/pages/skip-until-operator/skip-until-operator.component';
 import { SkipWhileOperatorComponent } from './operators/pages/skip-while-operator/skip-while-operator.component';
+import { StartwithOperatorComponent } from './operators/pages/startwith-operator/startwith-operator.component';
 import { SubjectComponent } from './operators/pages/subject/subject.component';
 import { SubscribeOnOpeartorComponent } from './operators/pages/subscribe-on-opeartor/subscribe-on-opeartor.component';
 import { SwitchAllComponent } from './operators/pages/switch-all/switch-all.component';
@@ -169,6 +170,8 @@ const routes: Routes = [{
     { path:'exhaustAll', component: ExhaustAllOpeartorComponent,},
     { path:'switchAll', component: SwitchAllComponent,},
     { path:'mergeAll', component: MergeAllOperatorComponent,},
+    { path:'startWith', component: StartwithOperatorComponent,},
+
 
 
 
