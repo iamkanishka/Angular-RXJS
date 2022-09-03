@@ -200,6 +200,7 @@ Differences between Operators
 111. merge, mergemap, mergeAll operators and its Differences - RXJS
 112. concat, concatmap, concatAll operators and its Differences - RXJS
 113. mergeMap vs concatMap vs switchMap vs exhaustMap operators and its differences. 
+114. Completing RXJS Course.
 
 
 
