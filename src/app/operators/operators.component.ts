@@ -99,15 +99,9 @@ export class OperatorsComponent implements OnInit {
    "windowCount",
    "windowTime",
    "windowToggle",
-   "windowWhen"
+   "windowWhen",
+   "mergeClassifieds"
 
-
-
-   
-
-
-
-   
 
 ];
   constructor() { }

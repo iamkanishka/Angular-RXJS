@@ -49,6 +49,7 @@ import { MaxOperatorComponent } from './operators/pages/max-operator/max-operato
 import { MergeAllOperatorComponent } from './operators/pages/merge-all-operator/merge-all-operator.component';
 import { MergeMapOperatorComponent } from './operators/pages/merge-map-operator/merge-map-operator.component';
 import { MergeOperatorComponent } from './operators/pages/merge-operator/merge-operator.component';
+import { MergeclassifiedsComponent } from './operators/pages/mergeclassifieds/mergeclassifieds.component';
 import { MergemapToComponent } from './operators/pages/mergemap-to/mergemap-to.component';
 import { MinOperatorComponent } from './operators/pages/min-operator/min-operator.component';
 import { MultiCastComponent } from './operators/pages/multi-cast/multi-cast.component';
@@ -90,6 +91,7 @@ import { WindowCountOperatorComponent } from './operators/pages/window-count-ope
 import { WindowOperatorComponent } from './operators/pages/window-operator/window-operator.component';
 import { WindowTimeOperatorComponent } from './operators/pages/window-time-operator/window-time-operator.component';
 import { WindowToggleOperatorComponent } from './operators/pages/window-toggle-operator/window-toggle-operator.component';
+import { WindowWhenOperatorComponent } from './operators/pages/window-when-operator/window-when-operator.component';
 import { WithLatestFromOperatorComponent } from './operators/pages/with-latest-from-operator/with-latest-from-operator.component';
 import { ZipoperatorComponent } from './operators/pages/zipoperator/zipoperator.component';
 
@@ -185,7 +187,9 @@ const routes: Routes = [{
     { path:'windowCount', component: WindowCountOperatorComponent,},
     { path:'windowTime', component: WindowTimeOperatorComponent,},
     { path:'windowToggle', component: WindowToggleOperatorComponent,},
-    { path:'windowWhen', component: WindowToggleOperatorComponent,},
+    { path:'windowWhen', component: WindowWhenOperatorComponent,},
+    { path:'mergeClassifieds', component: MergeclassifiedsComponent,},
+
 
 
 
