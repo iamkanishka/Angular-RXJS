@@ -100,6 +100,7 @@ import { WindowTimeOperatorComponent } from './operators/pages/window-time-opera
 import { WindowToggleOperatorComponent } from './operators/pages/window-toggle-operator/window-toggle-operator.component';
 import { WindowWhenOperatorComponent } from './operators/pages/window-when-operator/window-when-operator.component';
 import { MergeclassifiedsComponent } from './operators/pages/mergeclassifieds/mergeclassifieds.component';
+import { ConcatclassifiedsComponent } from './operators/pages/concatclassifieds/concatclassifieds.component';
 
 @NgModule({
   declarations: [
@@ -200,7 +201,8 @@ import { MergeclassifiedsComponent } from './operators/pages/mergeclassifieds/me
     WindowTimeOperatorComponent,
     WindowToggleOperatorComponent,
     WindowWhenOperatorComponent,
-    MergeclassifiedsComponent
+    MergeclassifiedsComponent,
+    ConcatclassifiedsComponent
   ],
   imports: [
     BrowserModule,

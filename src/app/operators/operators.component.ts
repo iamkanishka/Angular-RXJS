@@ -100,7 +100,8 @@ export class OperatorsComponent implements OnInit {
    "windowTime",
    "windowToggle",
    "windowWhen",
-   "mergeClassifieds"
+   "mergeVSmergeMapVSmergeAll",
+   "concatVSconcatMapVSconcatAll"
 
 
 ];

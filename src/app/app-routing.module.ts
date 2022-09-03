@@ -19,6 +19,7 @@ import { ConcatAllOpeartorComponent } from './operators/pages/concat-all-opearto
 import { ConcatMapToComponent } from './operators/pages/concat-map-to/concat-map-to.component';
 import { ConcatMapComponent } from './operators/pages/concat-map/concat-map.component';
 import { ConcatOperatorComponent } from './operators/pages/concat-operator/concat-operator.component';
+import { ConcatclassifiedsComponent } from './operators/pages/concatclassifieds/concatclassifieds.component';
 import { CountOperatorComponent } from './operators/pages/count-operator/count-operator.component';
 import { DebounceoperatorComponent } from './operators/pages/debounceoperator/debounceoperator.component';
 import { DefaultEmptyOpeartorComponent } from './operators/pages/default-empty-opeartor/default-empty-opeartor.component';
@@ -188,7 +189,9 @@ const routes: Routes = [{
     { path:'windowTime', component: WindowTimeOperatorComponent,},
     { path:'windowToggle', component: WindowToggleOperatorComponent,},
     { path:'windowWhen', component: WindowWhenOperatorComponent,},
-    { path:'mergeClassifieds', component: MergeclassifiedsComponent,},
+    { path:'mergeVSmergeMapVSmergeAll', component: MergeclassifiedsComponent,},
+    { path:'concatVSconcatMapVSconcatAll', component: ConcatclassifiedsComponent,},
+
 
 
 
