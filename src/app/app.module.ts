@@ -101,7 +101,8 @@ import { WindowToggleOperatorComponent } from './operators/pages/window-toggle-o
 import { WindowWhenOperatorComponent } from './operators/pages/window-when-operator/window-when-operator.component';
 import { MergeclassifiedsComponent } from './operators/pages/mergeclassifieds/mergeclassifieds.component';
 import { ConcatclassifiedsComponent } from './operators/pages/concatclassifieds/concatclassifieds.component';
-
+import { ConcatmapmergemapswitchmapexhaustmapclassifiedsComponent } from './operators/pages/concatmapmergemapswitchmapexhaustmapclassifieds/concatmapmergemapswitchmapexhaustmapclassifieds.component';
+ import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -202,11 +203,13 @@ import { ConcatclassifiedsComponent } from './operators/pages/concatclassifieds/
     WindowToggleOperatorComponent,
     WindowWhenOperatorComponent,
     MergeclassifiedsComponent,
-    ConcatclassifiedsComponent
+    ConcatclassifiedsComponent,
+    ConcatmapmergemapswitchmapexhaustmapclassifiedsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

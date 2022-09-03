@@ -101,7 +101,8 @@ export class OperatorsComponent implements OnInit {
    "windowToggle",
    "windowWhen",
    "mergeVSmergeMapVSmergeAll",
-   "concatVSconcatMapVSconcatAll"
+   "concatVSconcatMapVSconcatAll",
+   "concatMapVSmergemapVSswitchmapVSexhaustmap"
 
 
 ];
