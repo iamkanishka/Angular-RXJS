@@ -98,6 +98,7 @@ import { WindowOperatorComponent } from './operators/pages/window-operator/windo
 import { WindowCountOperatorComponent } from './operators/pages/window-count-operator/window-count-operator.component';
 import { WindowTimeOperatorComponent } from './operators/pages/window-time-operator/window-time-operator.component';
 import { WindowToggleOperatorComponent } from './operators/pages/window-toggle-operator/window-toggle-operator.component';
+import { WindowWhenOperatorComponent } from './operators/pages/window-when-operator/window-when-operator.component';
 
 @NgModule({
   declarations: [
@@ -196,7 +197,8 @@ import { WindowToggleOperatorComponent } from './operators/pages/window-toggle-o
     WindowOperatorComponent,
     WindowCountOperatorComponent,
     WindowTimeOperatorComponent,
-    WindowToggleOperatorComponent
+    WindowToggleOperatorComponent,
+    WindowWhenOperatorComponent
   ],
   imports: [
     BrowserModule,

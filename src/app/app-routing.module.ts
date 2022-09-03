@@ -185,6 +185,8 @@ const routes: Routes = [{
     { path:'windowCount', component: WindowCountOperatorComponent,},
     { path:'windowTime', component: WindowTimeOperatorComponent,},
     { path:'windowToggle', component: WindowToggleOperatorComponent,},
+    { path:'windowWhen', component: WindowToggleOperatorComponent,},
+
 
 
 
